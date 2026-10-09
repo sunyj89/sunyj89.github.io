@@ -1,6 +1,37 @@
-// 内容整理：2026-10-08 上站条目（来自盯着Tibo 交接）
+// 内容整理：含 2026-10-09 Ultrafast / Day4 条目；此前为 2026-10-08 盯着交接
 // person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-09-01",
+    "date": "2026-10-09",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 4 天：转向（steering）改为即时生效，模型能实时跟你改方向，少走弯路；同时放出 GPT-6.1 Sol ultrafast，两者搭配使用。",
+    "keywords": [
+      "28天冲刺",
+      "steering",
+      "GPT-6.1",
+      "ultrafast",
+      "Sol"
+    ],
+    "url": "https://x.com/thsottiaux/status/2108275041276420573"
+  },
+  {
+    "id": "2026-10-09-02",
+    "date": "2026-10-09",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "GPT-6.1 Sol Ultrafast 今日在 API、Codex、ChatGPT Work 上线，智能接近 Astra、速度最高约 8 倍于 Sol Standard。Ultrafast 定价约 $12/百万输入、$60/百万输出；Codex 与 Work 侧需 Pro 500、合格用量企业或学分制 Edu，企业管理员需开启。",
+    "keywords": [
+      "Ultrafast",
+      "GPT-6.1",
+      "Sol",
+      "API",
+      "Codex",
+      "定价"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2108262812489531498"
+  },
   {
     "id": "2026-10-08-01",
     "date": "2026-10-08",
