@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>盯着 table</title>
   <meta name="description" content="盯着 table：记录有意思的 AI 文章与盯着相关内容。">
+  <meta name="theme-color" content="#070b12">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg" aria-hidden="true"></div>
   <main>
     <header class="hero">
-      <p class="kicker">AI 观察笔记</p>
-      <h1>盯着 table</h1>
-      <p class="bio">记录有意思的 AI 文章和盯着相关内容。每条含原文链接、总结和关键字。</p>
+      <div class="status-row">
+        <span class="pulse" aria-hidden="true"></span>
+        <p class="kicker">LIVE FEED · AI SIGNAL</p>
+      </div>
+      <h1>盯着 <span class="accent">table</span></h1>
+      <p class="bio">把盯着的 AI 动态收成一桌：每日最新，按人物回溯。每条含原文链接、总结、关键字。</p>
     </header>
 
     <nav class="tabs" role="tablist" aria-label="查询方式">
@@ -23,18 +28,21 @@
     <div id="person-bar" class="person-bar" hidden aria-label="人物筛选"></div>
 
     <section class="feed" aria-labelledby="view-label">
-      <h2 id="view-label">每日最新</h2>
+      <div class="section-head">
+        <h2 id="view-label">每日最新</h2>
+        <p class="count" id="post-count"></p>
+      </div>
       <div id="post-list" class="post-list"></div>
       <p id="empty" class="empty" hidden>暂无条目。</p>
     </section>
 
     <section class="about" aria-labelledby="about-heading">
       <h2 id="about-heading">说明</h2>
-      <p>当前列表是示例占位，方便演示「每日最新」和「按人物」查询。真实盯着素材由内容整理后替换。</p>
+      <p>素材来自盯着流水线整理后上站。条目按日期与人物可查，点击「原文链接」回看源帖。</p>
     </section>
   </main>
   <footer>
-    <p>盯着 table</p>
+    <p><span class="mono">盯着 table</span> · signal board</p>
   </footer>
   <script src="data.js"></script>
   <script src="app.js"></script>

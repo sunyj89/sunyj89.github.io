@@ -4,6 +4,7 @@
   const emptyEl = document.getElementById("empty");
   const personBar = document.getElementById("person-bar");
   const viewLabel = document.getElementById("view-label");
+  const countEl = document.getElementById("post-count");
   const tabs = Array.from(document.querySelectorAll("[data-view]"));
 
   let view = "latest";
@@ -89,10 +90,12 @@
     if (!items.length) {
       listEl.innerHTML = "";
       emptyEl.hidden = false;
+      if (countEl) countEl.textContent = "";
       return;
     }
     emptyEl.hidden = true;
     listEl.innerHTML = items.map(card).join("");
+    if (countEl) countEl.textContent = items.length ? `${items.length} SIGNAL` : "";
   }
 
   tabs.forEach((tab) => {
