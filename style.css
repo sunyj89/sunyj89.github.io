@@ -227,6 +227,10 @@ h2 {
   font-size: 0.78rem;
 }
 
+a.person {
+  text-decoration: none;
+}
+
 .person {
   display: inline-flex;
   align-items: center;

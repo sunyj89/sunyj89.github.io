@@ -8,10 +8,29 @@
   const tabs = Array.from(document.querySelectorAll("[data-view]"));
 
   let view = "latest";
-  let person = "all";
+  let selectedHandle = "all";
+
+  function normalizeHandle(post) {
+    if (post.handle) return String(post.handle).replace(/^@/, "");
+    if (post.url) {
+      const m = String(post.url).match(/x\.com\/([^\/\?#]+)/i);
+      if (m && m[1] && m[1].toLowerCase() !== "i") return m[1];
+    }
+    return "";
+  }
 
   function people() {
-    return [...new Set(posts.map((p) => p.person))].sort((a, b) => a.localeCompare(b, "zh"));
+    const map = new Map();
+    posts.forEach((p) => {
+      const handle = normalizeHandle(p);
+      if (!handle) return;
+      if (!map.has(handle)) {
+        map.set(handle, { handle, person: p.person || handle });
+      }
+    });
+    return [...map.values()].sort((a, b) =>
+      a.handle.localeCompare(b.handle, "en", { sensitivity: "base" })
+    );
   }
 
   function sorted(items) {
@@ -22,8 +41,8 @@
   }
 
   function filtered() {
-    if (view === "person" && person !== "all") {
-      return sorted(posts.filter((p) => p.person === person));
+    if (view === "person" && selectedHandle !== "all") {
+      return sorted(posts.filter((p) => normalizeHandle(p) === selectedHandle));
     }
     return sorted(posts);
   }
@@ -36,14 +55,25 @@
       .replace(/"/g, "&quot;");
   }
 
+  function personLabel(post) {
+    const handle = normalizeHandle(post);
+    const name = post.person || handle;
+    return handle ? `${name} · @${handle}` : name;
+  }
+
   function card(post) {
     const tags = (post.keywords || [])
       .map((k) => `<li>${escapeHtml(k)}</li>`)
       .join("");
+    const handle = normalizeHandle(post);
+    const profile = handle ? `https://x.com/${encodeURIComponent(handle)}` : "";
+    const personHtml = profile
+      ? `<a class="person" href="${escapeHtml(profile)}" rel="noopener noreferrer" target="_blank">${escapeHtml(personLabel(post))}</a>`
+      : `<span class="person">${escapeHtml(personLabel(post))}</span>`;
     return `<article class="card">
       <div class="meta">
         <time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time>
-        <span class="person">${escapeHtml(post.person)}</span>
+        ${personHtml}
       </div>
       <p class="summary">${escapeHtml(post.summary)}</p>
       <ul class="keywords" aria-label="关键字">${tags}</ul>
@@ -61,14 +91,22 @@
       return;
     }
     personBar.hidden = false;
-    const opts = ["all", ...people()];
+    const opts = [{ handle: "all", person: "全部" }, ...people()];
     personBar.innerHTML = opts
-      .map((name) => {
-        const label = name === "all" ? "全部" : name;
-        const pressed = person === name ? "true" : "false";
-        return `<button type="button" class="chip" data-person="${escapeHtml(name)}" aria-pressed="${pressed}">${escapeHtml(label)}</button>`;
+      .map((item) => {
+        const value = item.handle;
+        const label = value === "all" ? "全部" : `@${item.handle}`;
+        const pressed = selectedHandle === value ? "true" : "false";
+        const title = value === "all" ? "全部" : `${item.person} (@${item.handle})`;
+        return `<button type="button" class="chip" data-handle="${escapeHtml(value)}" title="${escapeHtml(title)}" aria-pressed="${pressed}">${escapeHtml(label)}</button>`;
       })
       .join("");
+  }
+
+  function selectedLabel() {
+    if (selectedHandle === "all") return "全部";
+    const found = people().find((p) => p.handle === selectedHandle);
+    return found ? `@${found.handle}` : `@${selectedHandle}`;
   }
 
   function render() {
@@ -81,9 +119,9 @@
       viewLabel.textContent =
         view === "latest"
           ? "每日最新"
-          : person === "all"
+          : selectedHandle === "all"
             ? "按人物 · 全部"
-            : `按人物 · ${person}`;
+            : `按人物 · ${selectedLabel()}`;
     }
     renderPeople();
     const items = filtered();
@@ -101,16 +139,16 @@
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       view = tab.dataset.view;
-      if (view === "latest") person = "all";
+      if (view === "latest") selectedHandle = "all";
       render();
     });
   });
 
   if (personBar) {
     personBar.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-person]");
+      const btn = e.target.closest("[data-handle]");
       if (!btn) return;
-      person = btn.dataset.person;
+      selectedHandle = btn.dataset.handle;
       render();
     });
   }
