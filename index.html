@@ -3,47 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>杨俊</title>
-  <meta name="description" content="示例。做个人博客，也在试多 Bot 一起干活。">
+  <title>盯着 table</title>
+  <meta name="description" content="盯着 table：记录有意思的 AI 文章与盯着相关内容。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
     <header class="hero">
-      <p class="kicker">个人博客</p>
-      <h1>杨俊</h1>
-      <p class="bio">示例。做个人博客，也在试多 Bot 一起干活。</p>
+      <p class="kicker">AI 观察笔记</p>
+      <h1>盯着 table</h1>
+      <p class="bio">记录有意思的 AI 文章和盯着相关内容。每条含原文链接、总结和关键字。</p>
     </header>
 
-    <section class="posts" aria-labelledby="posts-heading">
-      <h2 id="posts-heading">文章</h2>
-      <ol class="post-list">
-        <li>
-          <article>
-            <h3>介绍这个博客</h3>
-            <p>示例。</p>
-            <p>这个博客是一个能在浏览器里直接打开的静态页面。现在只有一页：名字、一句简介、文章列表，还有关于。</p>
-            <p>版式和正文是分开做的：有人管页面，有人管文案。你现在读到的句子都标了「示例」，等真实内容来了再换。</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h3>多 Bot 协作</h3>
-            <p>示例。</p>
-            <p>这个页面不是一个人从头写到尾。有人做页面结构，有人写正文，有人在浏览器里验收，还有人负责分工和最后集成。</p>
-            <p>页面先放占位，正文写好再替换。验收只报真实看到的问题，不改设计，也不重写内容。</p>
-          </article>
-        </li>
-      </ol>
+    <nav class="tabs" role="tablist" aria-label="查询方式">
+      <button type="button" class="tab is-active" role="tab" data-view="latest" aria-selected="true">每日最新</button>
+      <button type="button" class="tab" role="tab" data-view="person" aria-selected="false">按人物</button>
+    </nav>
+
+    <div id="person-bar" class="person-bar" hidden aria-label="人物筛选"></div>
+
+    <section class="feed" aria-labelledby="view-label">
+      <h2 id="view-label">每日最新</h2>
+      <div id="post-list" class="post-list"></div>
+      <p id="empty" class="empty" hidden>暂无条目。</p>
     </section>
 
     <section class="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">关于</h2>
-      <p>示例。这里先不写具体经历。等杨俊自己补上想公开的事，再换掉这段。</p>
+      <h2 id="about-heading">说明</h2>
+      <p>当前列表是示例占位，方便演示「每日最新」和「按人物」查询。真实盯着素材由内容整理后替换。</p>
     </section>
   </main>
   <footer>
-    <p>杨俊</p>
+    <p>盯着 table</p>
   </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
