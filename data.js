@@ -1,6 +1,78 @@
-// 内容整理：含 2026-10-09 Ultrafast / Day4 条目；此前为 2026-10-08 盯着交接
+// 内容整理：含 2026-10-10 Day5（Composer 预测 / dots 手机端）；此前含 Ultrafast / Day4
 // person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-10-01",
+    "date": "2026-10-10",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 5 天：Codex 桌面端上线 Composer 预测，常准得让人愣一下；Pro 含在内且不占用量。同日还有 dots 手机端版本。",
+    "keywords": [
+      "28天冲刺",
+      "Composer",
+      "预测",
+      "Codex",
+      "Pro"
+    ],
+    "url": "https://x.com/thsottiaux/status/2108645667451318747"
+  },
+  {
+    "id": "2026-10-10-02",
+    "date": "2026-10-10",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Composer 预测进入 beta：Codex 按你的对话与说话方式预填下一条消息。Pro 桌面端本地任务可用，按 Tab 接受，可在 Settings 关闭。",
+    "keywords": [
+      "Composer",
+      "预测",
+      "Codex",
+      "Pro",
+      "beta"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2108624138369929725"
+  },
+  {
+    "id": "2026-10-10-03",
+    "date": "2026-10-10",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 5 天（dots）：可在 ChatGPT 手机 App 里完整创建并用文字对话自己的 dot，不必再只靠桌面/网页。",
+    "keywords": [
+      "28天冲刺",
+      "dots",
+      "ChatGPT",
+      "mobile"
+    ],
+    "url": "https://x.com/thsottiaux/status/2108646052178092403"
+  },
+  {
+    "id": "2026-10-10-04",
+    "date": "2026-10-10",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "手机端可创建 dot；dot 能开 Codex 任务并跟进已有线程，也可查看/改 ChatGPT Work 定时任务；并修了一串浏览、通知与代码块体验。",
+    "keywords": [
+      "dots",
+      "mobile",
+      "Codex",
+      "Scheduled Tasks"
+    ],
+    "url": "https://x.com/ChatGPT/status/2108636745915052037"
+  },
+  {
+    "id": "2026-10-10-05",
+    "date": "2026-10-09",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Windows 上 Codex 新沙箱基于微软 MXC：安装更快、网络隔离更强、文件权限更细；需要兼容的 Windows 11 设备。",
+    "keywords": [
+      "Windows",
+      "sandbox",
+      "MXC",
+      "Codex"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2108573188703781190"
+  },
   {
     "id": "2026-10-09-01",
     "date": "2026-10-09",
