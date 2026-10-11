@@ -1,6 +1,50 @@
-// 内容整理：含 2026-10-10 Day5（Composer 预测 / dots 手机端）；此前含 Ultrafast / Day4
+// 内容整理：含 2026-10-11（Day6 全局重置 / Devin 接入 / ChatGPT 功能合集）；此前含 10-07 至 10-10
 // person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-11-01",
+    "date": "2026-10-11",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 6 天直接全员重置额度（原文 \"Global reset by EOD\"），这轮没有投票。按太平洋时间当天结束换算，预计北京时间 10月11日 15:00 前到账。",
+    "keywords": [
+      "额度重置",
+      "全局重置",
+      "28天冲刺",
+      "Day 6"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109045220411351517"
+  },
+  {
+    "id": "2026-10-11-02",
+    "date": "2026-10-10",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "转发 Cognition 公告：ChatGPT Go / Plus / Pro 个人套餐可接入 Devin，GPT 模型用量从 ChatGPT 套餐额度里扣。Tibo 说 ChatGPT 订阅现在也是 Devin 订阅。",
+    "keywords": [
+      "Devin",
+      "Cognition",
+      "ChatGPT套餐",
+      "第三方接入"
+    ],
+    "url": "https://x.com/thsottiaux/status/2108777962053292398"
+  },
+  {
+    "id": "2026-10-11-03",
+    "date": "2026-10-10",
+    "person": "adamhfry",
+    "handle": "adamhfry",
+    "summary": "ChatGPT 两周功能合集（@ChatGPT 转发）：GPT-6 + Intelligent UI 全员可用；美国 Free/Go 用户可连财务账户；语音模式支持邮件和日历插件；改稿差异更易看；iOS 多页扫描成 PDF；收藏商品；上传文件生成记忆卡片。",
+    "keywords": [
+      "ChatGPT",
+      "功能合集",
+      "GPT-6",
+      "语音插件",
+      "Finances",
+      "Flashcards"
+    ],
+    "url": "https://x.com/adamhfry/status/2108745151753626006"
+  },
   {
     "id": "2026-10-10-01",
     "date": "2026-10-10",
