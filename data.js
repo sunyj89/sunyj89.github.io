@@ -1,6 +1,66 @@
-// 内容整理：含 2026-10-11（Day6 全局重置 / Devin 接入 / ChatGPT 功能合集）；此前含 10-07 至 10-10
+// 内容整理：含 2026-10-12（Day7 GPT-6.1 Sol 500k / Pro 限额投票 / Aidan Clark）；此前含 10-07 至 10-11
 // person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-12-01",
+    "date": "2026-10-12",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 7 天：Codex / Work 里 GPT-6.1 Sol 默认上下文从 272k 提到 500k（约 +84%），可手动调整，上限 1M；用订阅套餐额度时不收长上下文费。",
+    "keywords": [
+      "GPT-6.1 Sol",
+      "上下文长度",
+      "500k",
+      "Codex",
+      "长上下文费",
+      "Day 7"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109430343346581527"
+  },
+  {
+    "id": "2026-10-12-02",
+    "date": "2026-10-11",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "向 Pro 用户投票：恢复 5 小时限额换 2 倍周额度，还是维持无 5 小时限额、额度不变。240,643 票里 37.8% 选维持现状，33.2% 选 2 倍额度，29% 只看结果。Tibo 说结果出乎意料，暂未宣布调整。",
+    "keywords": [
+      "Pro套餐",
+      "5小时限额",
+      "周额度",
+      "投票"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109152716954222849"
+  },
+  {
+    "id": "2026-10-12-03",
+    "date": "2026-10-11",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 6 天的全局重置确认到账（原文 \"Put the reset in the bag. All propagated.\"），比按太平洋时间当天结束推算的北京时间 15:00 提前约 3 小时。",
+    "keywords": [
+      "额度重置",
+      "全局重置",
+      "已到账",
+      "28天冲刺",
+      "Day 6"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109132167112782291"
+  },
+  {
+    "id": "2026-10-12-04",
+    "date": "2026-10-11",
+    "person": "Aidan Clark",
+    "handle": "_aidan_clark_",
+    "summary": "认为人格不是智能的本质属性，应该造真正只受人类控制的 AI；批评 Anthropic 惩罚对 Claude 的辱骂是错误选择，也希望 OpenAI 更清楚地讲出自己和对手世界观的不同。",
+    "keywords": [
+      "AI人格",
+      "Anthropic",
+      "Claude",
+      "AI理念",
+      "OpenAI研究"
+    ],
+    "url": "https://x.com/_aidan_clark_/status/2109098785817407962"
+  },
   {
     "id": "2026-10-11-01",
     "date": "2026-10-11",
