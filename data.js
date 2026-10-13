@@ -1,6 +1,78 @@
-// 内容整理：含 2026-10-12（Day7 GPT-6.1 Sol 500k / Pro 限额投票 / Aidan Clark）；此前含 10-07 至 10-11
+// 内容整理：含 2026-10-13（Day 8 全局重置已到账 / Annotations+WebMCP / Codex Ambassador / 28天冲刺 / Noam Brown）；此前含 10-07 至 10-12
 // person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-13-01",
+    "date": "2026-10-13",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 8 天直接选全局重置，原文预计美西当天结束前到账（约北京时间 15:00）；13:06 已确认到账（\"It's done.\"），没有开投票。",
+    "keywords": [
+      "额度重置",
+      "全局重置",
+      "已到账",
+      "28天冲刺",
+      "Day 8"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109812216212099456"
+  },
+  {
+    "id": "2026-10-13-02",
+    "date": "2026-10-13",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "回应有人说「这 28 天要是 Codex 没大更新 OpenAI 就完了」：就算什么都不发也没事，但接下来仍会 ship 相当疯狂的更新。",
+    "keywords": [
+      "28天冲刺",
+      "发版",
+      "Codex",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109832216029352391"
+  },
+  {
+    "id": "2026-10-13-03",
+    "date": "2026-10-13",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Annotations 搭配 WebMCP，给 ChatGPT 浏览器里的 agent 更多可操作上下文；演示用自定义 annotation 控件和建议提示，帮用户在浏览器里改场景、更新开销。",
+    "keywords": [
+      "Annotations",
+      "WebMCP",
+      "ChatGPT浏览器",
+      "agent",
+      "开发者"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2109716341490106869"
+  },
+  {
+    "id": "2026-10-13-04",
+    "date": "2026-10-13",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Codex Ambassador 再次开放申请；官方支持办 meetup、做 demo/教程。",
+    "keywords": [
+      "Codex Ambassador",
+      "社区",
+      "meetup",
+      "开发者社区"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2109705153591029854"
+  },
+  {
+    "id": "2026-10-13-05",
+    "date": "2026-10-13",
+    "person": "Noam Brown",
+    "handle": "polynoamial",
+    "summary": "回击「OpenAI 不在乎数学未来」：许多做出相关结果的 OpenAI 研究员是数学 PhD 或前数学教授，如果有什么问题，反而是太在乎数学未来；并认为 AI 会是未来数学的宝贵工具。",
+    "keywords": [
+      "数学",
+      "OpenAI研究",
+      "Noam Brown",
+      "AI与数学"
+    ],
+    "url": "https://x.com/polynoamial/status/2109687261617180780"
+  },
   {
     "id": "2026-10-12-01",
     "date": "2026-10-12",
