@@ -1,6 +1,105 @@
-// 内容整理：含 2026-10-13（Day 8 全局重置已到账 / Annotations+WebMCP / Codex Ambassador / 28天冲刺 / Noam Brown）；此前含 10-07 至 10-12
-// person=显示名，handle=X 账号（不含@）；按人物筛选按 handle。
+// 盯着 Tibo 博客条目，新的在前
 window.BLOG_POSTS = [
+  {
+    "id": "2026-10-14-01",
+    "date": "2026-10-14",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "第 9 天：优化 ChatGPT 和 Codex 桌面端在磁盘上存储状态的方式，占用减少约 60%，回应重度用户磁盘被占满的反馈。Tibo 称是 \"Small ship\"，当天没有重置。",
+    "keywords": [
+      "28天冲刺",
+      "Day 9",
+      "Codex桌面端",
+      "磁盘占用",
+      "优化"
+    ],
+    "url": "https://x.com/thsottiaux/status/2110151780478927344"
+  },
+  {
+    "id": "2026-10-14-02",
+    "date": "2026-10-14",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "openai/mcp-extensions 在 GitHub 破 1k 星并发布 v0.2：支持可编辑草稿消息、多轮表单、MCP SDK 2、扩展内 DRM 视频、更快启动、可拖动输入框等。",
+    "keywords": [
+      "MCP",
+      "mcp-extensions",
+      "ChatGPT应用",
+      "开发者"
+    ],
+    "url": "https://x.com/mxstbr/status/2110153937877889031"
+  },
+  {
+    "id": "2026-10-14-03",
+    "date": "2026-10-14",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "OpenAI 在办公室发现一名员工几天前安装的隐蔽录音设备，用自家模型分析后锁定此人并移交 FBI，FBI 已逮捕，调查仍在进行。官方称暂无迹象显示其访问或带走模型权重、源代码或客户数据，该员工已被解雇。",
+    "keywords": [
+      "安全事件",
+      "窃听设备",
+      "FBI",
+      "内部威胁",
+      "OpenAI安全"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2110095403198849132"
+  },
+  {
+    "id": "2026-10-14-04",
+    "date": "2026-10-14",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "XBOW 团队借助 GPT-5.6 Sol，用 6 天、4 万美元算力做出 Chrome 全链漏洞利用，拿到谷歌 2026 年规则下首个 25 万美元全链奖金，影响约 10 亿用户。Greg Brockman 认为这说明防守方也能用这类工具大幅提升软件安全。",
+    "keywords": [
+      "GPT-5.6 Sol",
+      "网络安全",
+      "Chrome漏洞",
+      "XBOW",
+      "Greg Brockman"
+    ],
+    "url": "https://x.com/gdb/status/2110063893016096831"
+  },
+  {
+    "id": "2026-10-14-05",
+    "date": "2026-10-13",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "预告一个计划：原文 \"I have one that should result in significantly more usage for everyone. Hope to get it done soon.\"，没有透露具体内容和时间。",
+    "keywords": [
+      "用量",
+      "额度",
+      "Tibo",
+      "预告"
+    ],
+    "url": "https://x.com/thsottiaux/status/2109892247580000595"
+  },
+  {
+    "id": "2026-10-14-06",
+    "date": "2026-10-13",
+    "person": "reach_vb",
+    "handle": "reach_vb",
+    "summary": "dots 更新（@Dimillian 转发）：iOS / Android 可创建 dot 并从 ChatGPT 直接打开；可发起 Codex 工作并跟进线程，带聊天、Codex 线程和自动化上下文；可查看和编辑定时任务；另有云端浏览更快、通知减少等修复。",
+    "keywords": [
+      "dots",
+      "ChatGPT移动端",
+      "Codex",
+      "定时任务"
+    ],
+    "url": "https://x.com/reach_vb/status/2109872508853756077"
+  },
+  {
+    "id": "2026-10-14-07",
+    "date": "2026-10-13",
+    "person": "JonathanAbrams",
+    "handle": "JonathanAbrams",
+    "summary": "ChatGPT Sites 新上线（@dkundel 转发）：用 ChatGPT 登录访问你的一个站点后，就能访问你所有站点，包括以后新建的。",
+    "keywords": [
+      "ChatGPT Sites",
+      "登录",
+      "建站"
+    ],
+    "url": "https://x.com/JonathanAbrams/status/2109860966414647410"
+  },
   {
     "id": "2026-10-13-01",
     "date": "2026-10-13",
