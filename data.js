@@ -1,6 +1,109 @@
 // 盯着 Tibo 博客条目，新的在前
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-15-01",
+    "date": "2026-10-15",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Space 正式对 Pro / Business / Enterprise 在网页和桌面端开放：可多人协作编辑「活文档」、评论反馈、@ChatGPT 或 dot 改内容，还能从已连接的工具自动更新页面。入口是 chatgpt.com/space。",
+    "keywords": [
+      "ChatGPT Space",
+      "协作文档",
+      "Pro",
+      "Business",
+      "Enterprise",
+      "dot"
+    ],
+    "url": "https://x.com/ChatGPT/status/2110424821331034550"
+  },
+  {
+    "id": "2026-10-15-02",
+    "date": "2026-10-15",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "GPT-6.1 Sol Ultrafast 最高约是标准模式的 8 倍速；引用一位用户的反馈：30 秒内搜完邮件，填好 7 页报销 PDF。",
+    "keywords": [
+      "GPT-6.1 Sol",
+      "Ultrafast",
+      "速度",
+      "Romain Huet"
+    ],
+    "url": "https://x.com/romainhuet/status/2110531966487638357"
+  },
+  {
+    "id": "2026-10-15-03",
+    "date": "2026-10-15",
+    "person": "keyanzhang",
+    "handle": "keyanzhang",
+    "summary": "最新版 Codex app 改进了 composer predictions（自动补全），更快也更准，建议升级。（@ajambrosino 转发）",
+    "keywords": [
+      "Codex",
+      "composer predictions",
+      "自动补全",
+      "桌面端"
+    ],
+    "url": "https://x.com/keyanzhang/status/2110442351428821053"
+  },
+  {
+    "id": "2026-10-15-04",
+    "date": "2026-10-15",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "欧洲企业的 AI 使用里，一半以上已经是 agent，区域中小企业用户约增长 8 倍；同时发布经济研究报告，讨论从广泛采用走向深度使用。",
+    "keywords": [
+      "欧洲",
+      "agent",
+      "经济研究",
+      "中小企业",
+      "OpenAI"
+    ],
+    "url": "https://x.com/OpenAI/status/2110442001749659890"
+  },
+  {
+    "id": "2026-10-15-05",
+    "date": "2026-10-15",
+    "person": "danshipper",
+    "handle": "danshipper",
+    "summary": "Every 预告次日发布一篇约 8 千字的 Codex 史，含对 @gdb、@thsottiaux、@ajambrosino、@embirico 等人的访谈，并做成 agent-native 形式。（@ajambrosino 转发）",
+    "keywords": [
+      "Codex历史",
+      "Every",
+      "访谈",
+      "agent-native"
+    ],
+    "url": "https://x.com/danshipper/status/2110431000572375420"
+  },
+  {
+    "id": "2026-10-15-06",
+    "date": "2026-10-15",
+    "person": "Sachin Katti",
+    "handle": "sk7037",
+    "summary": "OpenAI 算力战略与 GPT-Infra 负责人 Sachin Katti 宣布几周后离职，11月15日后改任顾问。他回顾一年内落地了双位数 GW 算力和多项云与芯片合作，GPT-Infra 用三个月立起来。",
+    "keywords": [
+      "人事",
+      "离职",
+      "算力",
+      "GPT-Infra",
+      "Sachin Katti",
+      "顾问"
+    ],
+    "url": "https://x.com/sk7037/status/2110401792811159643"
+  },
+  {
+    "id": "2026-10-15-07",
+    "date": "2026-10-14",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "桌面端新增 Storage 页签，可以查看 Codex 的磁盘占用，承接 Day 9 的磁盘优化。",
+    "keywords": [
+      "Codex桌面端",
+      "磁盘",
+      "Storage",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2110236199117803781"
+  },
+  {
     "id": "2026-10-14-01",
     "date": "2026-10-14",
     "person": "Tibo",
