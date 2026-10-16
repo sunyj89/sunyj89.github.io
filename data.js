@@ -1,6 +1,123 @@
 // 盯着 Tibo 博客条目，新的在前
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-16-01",
+    "date": "2026-10-15",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 10 宣布全员重置，称「Landing within the next 2 hours」；约 14:28（北京时间）以「Done and dusted」确认到账。codex-resets.com 记为 regular，累计 62。",
+    "keywords": [
+      "额度重置",
+      "Day 10",
+      "Codex",
+      "28天冲刺",
+      "已到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2110595484180214059"
+  },
+  {
+    "id": "2026-10-16-02",
+    "date": "2026-10-15",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 11 加算力与一系列改动，显著降低「Selected model is at capacity」出现频率；即便再出现也应最终自行继续、不再卡死。非额度重置。",
+    "keywords": [
+      "Day 11",
+      "容量",
+      "at capacity",
+      "算力",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2110750421367287996"
+  },
+  {
+    "id": "2026-10-16-03",
+    "date": "2026-10-16",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Chrome 扩展带来 computer use：Chat 可读已开标签汇总信息，Work 可操控标签（发消息、填表、下载、整理分组）；页内侧边栏可用完整历史并与网页并排；全计划可用。",
+    "keywords": [
+      "Chrome",
+      "computer use",
+      "标签页",
+      "扩展",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/ChatGPT/status/2110823738531037651"
+  },
+  {
+    "id": "2026-10-16-04",
+    "date": "2026-10-16",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "GPT-Live-1.1 更新 Voice（ChatGPT / Codex / dots）：新多语声音与更好口音，减少重复「checking…」；今日全员推送，API 即将跟进。",
+    "keywords": [
+      "GPT-Live-1.1",
+      "语音",
+      "多语",
+      "dots",
+      "Codex"
+    ],
+    "url": "https://x.com/OpenAI/status/2110797830361436604"
+  },
+  {
+    "id": "2026-10-16-05",
+    "date": "2026-10-16",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "ChatGPT Sites 对企业正式开放，支持美/欧数据驻留、团队应用（数据库与鉴权）等；同时取消 Plus/Pro 可创建 Sites 数量上限。（@simpsoka 补充取消上限）",
+    "keywords": [
+      "Sites",
+      "Enterprise",
+      "数据驻留",
+      "Plus",
+      "Pro"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2110832979656524283"
+  },
+  {
+    "id": "2026-10-16-06",
+    "date": "2026-10-16",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "推出 Rosalind Academic Plan，为美国高校合格实验室赞助接入 GPT-Rosalind 等工具（最长约 12 个月，需审批）；默认不用研究数据训练。",
+    "keywords": [
+      "GPT-Rosalind",
+      "学术",
+      "生命科学",
+      "赞助接入"
+    ],
+    "url": "https://x.com/OpenAI/status/2110841898076418336"
+  },
+  {
+    "id": "2026-10-16-07",
+    "date": "2026-10-15",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "向 Simons Foundation 新倡议捐 500 万美元，资助数学家理解与延续 AI 数学成果；并提供模型与算力给基金会支持的研究者。",
+    "keywords": [
+      "Simons",
+      "数学",
+      "捐赠",
+      "AI成果"
+    ],
+    "url": "https://x.com/OpenAI/status/2110741355739963884"
+  },
+  {
+    "id": "2026-10-16-08",
+    "date": "2026-10-16",
+    "person": "danshipper",
+    "handle": "danshipper",
+    "summary": "Every 正式发布 Codex 史长文（agent-native），含对 @gdb、@thsottiaux、@embirico、@ajambrosino 等访谈；写一年内产品演进与 Tibo 升任核心产品负责人等。（@ajambrosino 转发）",
+    "keywords": [
+      "Codex历史",
+      "Every",
+      "访谈",
+      "agent-native"
+    ],
+    "url": "https://x.com/danshipper/status/2110802324939485505"
+  },
+  {
     "id": "2026-10-15-01",
     "date": "2026-10-15",
     "person": "ChatGPT",
