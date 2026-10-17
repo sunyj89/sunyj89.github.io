@@ -1,6 +1,154 @@
 // 盯着 Tibo 博客条目，新的在前
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-17-01",
+    "date": "2026-10-17",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 12 不是重置，而是提升 Codex 与 Work 的有效额度：子智能体间复用上下文、延长上下文缓存、改进请求路由以提高缓存命中。原文未给出具体提升幅度。",
+    "keywords": [
+      "Day 12",
+      "有效额度",
+      "缓存",
+      "子智能体",
+      "Codex",
+      "Work"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111244596131111253"
+  },
+  {
+    "id": "2026-10-17-02",
+    "date": "2026-10-17",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "ChatGPT 中的 GPT-6 Astra Pro 升级：响应更快、插件与工具使用更好，并支持多智能体并行处理任务的不同部分、可查看各自进度；Pro 用户在 Chat 标签页可用。",
+    "keywords": [
+      "GPT-6 Astra Pro",
+      "多智能体",
+      "并行",
+      "Pro",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/OpenAI/status/2111192259073094035"
+  },
+  {
+    "id": "2026-10-17-03",
+    "date": "2026-10-17",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "dot 可作为 iOS 主屏幕小组件，一点即可回到对话或开始通话；同时支持 iPhone 操作按钮。（@dkundel 发了教程）",
+    "keywords": [
+      "dots",
+      "iOS",
+      "小组件",
+      "Action button",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/ChatGPT/status/2111210005617889406"
+  },
+  {
+    "id": "2026-10-17-04",
+    "date": "2026-10-17",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "ChatGPT Space 新增幻灯片（slides）支持，目前限 Pro、Business、Enterprise；Tibo 在征集下一步功能需求。",
+    "keywords": [
+      "ChatGPT Space",
+      "幻灯片",
+      "Pro",
+      "Business",
+      "Enterprise"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111249810502353152"
+  },
+  {
+    "id": "2026-10-17-05",
+    "date": "2026-10-17",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "GPT-Live-1 开发者可用提示词塑造声音，并新增 9 个由法、德、印地、日、韩母语演员录制的预设声音；GPT-Live-1.1 口音改进已在 ChatGPT 上线，API 即将支持。",
+    "keywords": [
+      "GPT-Live",
+      "语音",
+      "预设声音",
+      "API",
+      "多语"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2111142258867335430"
+  },
+  {
+    "id": "2026-10-17-06",
+    "date": "2026-10-17",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "OpenAI 介绍内部用 Codex 维护软件：从 Slack 找出疑似无用代码、对照生产遥测核实，再起草清理 PR。",
+    "keywords": [
+      "Codex",
+      "软件维护",
+      "死代码",
+      "GPT-6",
+      "案例"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2111213093577691337"
+  },
+  {
+    "id": "2026-10-17-07",
+    "date": "2026-10-17",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "OpenAI 首款 AI 加速芯片 Jalapeño 入选《时代》2026 最佳发明；硬件 VP Richard Ho 表示将继续从模型到芯片全栈创新。",
+    "keywords": [
+      "Jalapeño",
+      "AI 芯片",
+      "TIME",
+      "Broadcom",
+      "硬件"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2111142554079268944"
+  },
+  {
+    "id": "2026-10-17-08",
+    "date": "2026-10-17",
+    "person": "Sam Altman",
+    "handle": "sama",
+    "summary": "转引曾在 OpenAI 做可解释性研究的 Nick Cammarata 的观点：借助现代智能体工具，大模型绝大多数神经元可读，可解释性或很快解决；Altman 称「Very happy to see this」。",
+    "keywords": [
+      "可解释性",
+      "对齐",
+      "Sam Altman",
+      "研究"
+    ],
+    "url": "https://x.com/sama/status/2111130577789493706"
+  },
+  {
+    "id": "2026-10-17-09",
+    "date": "2026-10-17",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "ChatGPT 插件审核量本周近翻倍，但提交量持续指数增长、积压仍在扩大，团队开始从根本上重做审核流程。",
+    "keywords": [
+      "ChatGPT 插件",
+      "审核",
+      "积压",
+      "开发者"
+    ],
+    "url": "https://x.com/mxstbr/status/2111204721318826256"
+  },
+  {
+    "id": "2026-10-17-10",
+    "date": "2026-10-16",
+    "person": "Aidan Clark",
+    "handle": "_aidan_clark_",
+    "summary": "预训练很难：愿意蒸馏/自举的实验室出好模型更快，坚持自建完整技术栈的较慢；顺带称赞了微软。",
+    "keywords": [
+      "预训练",
+      "蒸馏",
+      "研究",
+      "微软"
+    ],
+    "url": "https://x.com/_aidan_clark_/status/2110951042917794271"
+  },
+  {
     "id": "2026-10-16-01",
     "date": "2026-10-15",
     "person": "Tibo",
