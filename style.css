@@ -149,11 +149,39 @@ h1 .accent {
   box-shadow: 0 0 0 1px rgba(94, 234, 212, 0.12), 0 0 24px rgba(94, 234, 212, 0.12);
 }
 
+.track-bar,
 .person-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem;
-  margin: 0 0 1rem;
+  margin: 0 0 0.65rem;
+}
+
+.person-bar {
+  margin-bottom: 1rem;
+}
+
+.track-tag {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.track-tag.track-openai {
+  color: #9ec5ff;
+  border-color: rgba(122, 162, 255, 0.35);
+  background: rgba(122, 162, 255, 0.1);
+}
+
+.track-tag.track-cursor {
+  color: #7dffe3;
+  border-color: rgba(94, 234, 212, 0.4);
+  background: rgba(94, 234, 212, 0.1);
 }
 
 .chip {

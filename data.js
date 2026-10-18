@@ -1,4 +1,4 @@
-// 盯着 Tibo 博客条目，新的在前
+// 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
     "id": "2026-10-18-01",
@@ -13,7 +13,8 @@ window.BLOG_POSTS = [
       "Codex",
       "28天冲刺"
     ],
-    "url": "https://x.com/thsottiaux/status/2111492673890824348"
+    "url": "https://x.com/thsottiaux/status/2111492673890824348",
+    "track": "openai"
   },
   {
     "id": "2026-10-18-02",
@@ -28,7 +29,8 @@ window.BLOG_POSTS = [
       "Artifact SDK",
       "开发者"
     ],
-    "url": "https://x.com/stevendcoffey/status/2111266691187704240"
+    "url": "https://x.com/stevendcoffey/status/2111266691187704240",
+    "track": "openai"
   },
   {
     "id": "2026-10-18-03",
@@ -41,7 +43,8 @@ window.BLOG_POSTS = [
       "周末项目",
       "OpenAI Devs"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2111585491237650691"
+    "url": "https://x.com/OpenAIDevs/status/2111585491237650691",
+    "track": "openai"
   },
   {
     "id": "2026-10-18-04",
@@ -54,7 +57,8 @@ window.BLOG_POSTS = [
       "多智能体协作",
       "ChatGPT"
     ],
-    "url": "https://x.com/thsottiaux/status/2111495392559067199"
+    "url": "https://x.com/thsottiaux/status/2111495392559067199",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-01",
@@ -70,7 +74,8 @@ window.BLOG_POSTS = [
       "Codex",
       "Work"
     ],
-    "url": "https://x.com/thsottiaux/status/2111244596131111253"
+    "url": "https://x.com/thsottiaux/status/2111244596131111253",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-02",
@@ -85,7 +90,8 @@ window.BLOG_POSTS = [
       "Pro",
       "ChatGPT"
     ],
-    "url": "https://x.com/OpenAI/status/2111192259073094035"
+    "url": "https://x.com/OpenAI/status/2111192259073094035",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-03",
@@ -100,7 +106,8 @@ window.BLOG_POSTS = [
       "Action button",
       "ChatGPT"
     ],
-    "url": "https://x.com/ChatGPT/status/2111210005617889406"
+    "url": "https://x.com/ChatGPT/status/2111210005617889406",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-04",
@@ -115,7 +122,8 @@ window.BLOG_POSTS = [
       "Business",
       "Enterprise"
     ],
-    "url": "https://x.com/thsottiaux/status/2111249810502353152"
+    "url": "https://x.com/thsottiaux/status/2111249810502353152",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-05",
@@ -130,7 +138,8 @@ window.BLOG_POSTS = [
       "API",
       "多语"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2111142258867335430"
+    "url": "https://x.com/OpenAIDevs/status/2111142258867335430",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-06",
@@ -145,7 +154,8 @@ window.BLOG_POSTS = [
       "GPT-6",
       "案例"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2111213093577691337"
+    "url": "https://x.com/OpenAIDevs/status/2111213093577691337",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-07",
@@ -160,7 +170,8 @@ window.BLOG_POSTS = [
       "Broadcom",
       "硬件"
     ],
-    "url": "https://x.com/OpenAINewsroom/status/2111142554079268944"
+    "url": "https://x.com/OpenAINewsroom/status/2111142554079268944",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-08",
@@ -174,7 +185,8 @@ window.BLOG_POSTS = [
       "Sam Altman",
       "研究"
     ],
-    "url": "https://x.com/sama/status/2111130577789493706"
+    "url": "https://x.com/sama/status/2111130577789493706",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-09",
@@ -188,7 +200,8 @@ window.BLOG_POSTS = [
       "积压",
       "开发者"
     ],
-    "url": "https://x.com/mxstbr/status/2111204721318826256"
+    "url": "https://x.com/mxstbr/status/2111204721318826256",
+    "track": "openai"
   },
   {
     "id": "2026-10-17-10",
@@ -202,7 +215,8 @@ window.BLOG_POSTS = [
       "研究",
       "微软"
     ],
-    "url": "https://x.com/_aidan_clark_/status/2110951042917794271"
+    "url": "https://x.com/_aidan_clark_/status/2110951042917794271",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-01",
@@ -217,7 +231,8 @@ window.BLOG_POSTS = [
       "28天冲刺",
       "已到账"
     ],
-    "url": "https://x.com/thsottiaux/status/2110595484180214059"
+    "url": "https://x.com/thsottiaux/status/2110595484180214059",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-02",
@@ -232,7 +247,8 @@ window.BLOG_POSTS = [
       "算力",
       "Codex"
     ],
-    "url": "https://x.com/thsottiaux/status/2110750421367287996"
+    "url": "https://x.com/thsottiaux/status/2110750421367287996",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-03",
@@ -247,7 +263,8 @@ window.BLOG_POSTS = [
       "扩展",
       "ChatGPT"
     ],
-    "url": "https://x.com/ChatGPT/status/2110823738531037651"
+    "url": "https://x.com/ChatGPT/status/2110823738531037651",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-04",
@@ -262,7 +279,8 @@ window.BLOG_POSTS = [
       "dots",
       "Codex"
     ],
-    "url": "https://x.com/OpenAI/status/2110797830361436604"
+    "url": "https://x.com/OpenAI/status/2110797830361436604",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-05",
@@ -277,7 +295,8 @@ window.BLOG_POSTS = [
       "Plus",
       "Pro"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2110832979656524283"
+    "url": "https://x.com/OpenAIDevs/status/2110832979656524283",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-06",
@@ -291,7 +310,8 @@ window.BLOG_POSTS = [
       "生命科学",
       "赞助接入"
     ],
-    "url": "https://x.com/OpenAI/status/2110841898076418336"
+    "url": "https://x.com/OpenAI/status/2110841898076418336",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-07",
@@ -305,7 +325,8 @@ window.BLOG_POSTS = [
       "捐赠",
       "AI成果"
     ],
-    "url": "https://x.com/OpenAI/status/2110741355739963884"
+    "url": "https://x.com/OpenAI/status/2110741355739963884",
+    "track": "openai"
   },
   {
     "id": "2026-10-16-08",
@@ -319,7 +340,8 @@ window.BLOG_POSTS = [
       "访谈",
       "agent-native"
     ],
-    "url": "https://x.com/danshipper/status/2110802324939485505"
+    "url": "https://x.com/danshipper/status/2110802324939485505",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-01",
@@ -335,7 +357,8 @@ window.BLOG_POSTS = [
       "Enterprise",
       "dot"
     ],
-    "url": "https://x.com/ChatGPT/status/2110424821331034550"
+    "url": "https://x.com/ChatGPT/status/2110424821331034550",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-02",
@@ -349,7 +372,8 @@ window.BLOG_POSTS = [
       "速度",
       "Romain Huet"
     ],
-    "url": "https://x.com/romainhuet/status/2110531966487638357"
+    "url": "https://x.com/romainhuet/status/2110531966487638357",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-03",
@@ -363,7 +387,8 @@ window.BLOG_POSTS = [
       "自动补全",
       "桌面端"
     ],
-    "url": "https://x.com/keyanzhang/status/2110442351428821053"
+    "url": "https://x.com/keyanzhang/status/2110442351428821053",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-04",
@@ -378,7 +403,8 @@ window.BLOG_POSTS = [
       "中小企业",
       "OpenAI"
     ],
-    "url": "https://x.com/OpenAI/status/2110442001749659890"
+    "url": "https://x.com/OpenAI/status/2110442001749659890",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-05",
@@ -392,7 +418,8 @@ window.BLOG_POSTS = [
       "访谈",
       "agent-native"
     ],
-    "url": "https://x.com/danshipper/status/2110431000572375420"
+    "url": "https://x.com/danshipper/status/2110431000572375420",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-06",
@@ -408,7 +435,8 @@ window.BLOG_POSTS = [
       "Sachin Katti",
       "顾问"
     ],
-    "url": "https://x.com/sk7037/status/2110401792811159643"
+    "url": "https://x.com/sk7037/status/2110401792811159643",
+    "track": "openai"
   },
   {
     "id": "2026-10-15-07",
@@ -422,7 +450,8 @@ window.BLOG_POSTS = [
       "Storage",
       "Dimillian"
     ],
-    "url": "https://x.com/Dimillian/status/2110236199117803781"
+    "url": "https://x.com/Dimillian/status/2110236199117803781",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-01",
@@ -437,7 +466,8 @@ window.BLOG_POSTS = [
       "磁盘占用",
       "优化"
     ],
-    "url": "https://x.com/thsottiaux/status/2110151780478927344"
+    "url": "https://x.com/thsottiaux/status/2110151780478927344",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-02",
@@ -451,7 +481,8 @@ window.BLOG_POSTS = [
       "ChatGPT应用",
       "开发者"
     ],
-    "url": "https://x.com/mxstbr/status/2110153937877889031"
+    "url": "https://x.com/mxstbr/status/2110153937877889031",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-03",
@@ -466,7 +497,8 @@ window.BLOG_POSTS = [
       "内部威胁",
       "OpenAI安全"
     ],
-    "url": "https://x.com/OpenAINewsroom/status/2110095403198849132"
+    "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-04",
@@ -481,7 +513,8 @@ window.BLOG_POSTS = [
       "XBOW",
       "Greg Brockman"
     ],
-    "url": "https://x.com/gdb/status/2110063893016096831"
+    "url": "https://x.com/gdb/status/2110063893016096831",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-05",
@@ -495,7 +528,8 @@ window.BLOG_POSTS = [
       "Tibo",
       "预告"
     ],
-    "url": "https://x.com/thsottiaux/status/2109892247580000595"
+    "url": "https://x.com/thsottiaux/status/2109892247580000595",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-06",
@@ -509,7 +543,8 @@ window.BLOG_POSTS = [
       "Codex",
       "定时任务"
     ],
-    "url": "https://x.com/reach_vb/status/2109872508853756077"
+    "url": "https://x.com/reach_vb/status/2109872508853756077",
+    "track": "openai"
   },
   {
     "id": "2026-10-14-07",
@@ -522,7 +557,8 @@ window.BLOG_POSTS = [
       "登录",
       "建站"
     ],
-    "url": "https://x.com/JonathanAbrams/status/2109860966414647410"
+    "url": "https://x.com/JonathanAbrams/status/2109860966414647410",
+    "track": "openai"
   },
   {
     "id": "2026-10-13-01",
@@ -537,7 +573,8 @@ window.BLOG_POSTS = [
       "28天冲刺",
       "Day 8"
     ],
-    "url": "https://x.com/thsottiaux/status/2109812216212099456"
+    "url": "https://x.com/thsottiaux/status/2109812216212099456",
+    "track": "openai"
   },
   {
     "id": "2026-10-13-02",
@@ -551,7 +588,8 @@ window.BLOG_POSTS = [
       "Codex",
       "Tibo"
     ],
-    "url": "https://x.com/thsottiaux/status/2109832216029352391"
+    "url": "https://x.com/thsottiaux/status/2109832216029352391",
+    "track": "openai"
   },
   {
     "id": "2026-10-13-03",
@@ -566,7 +604,8 @@ window.BLOG_POSTS = [
       "agent",
       "开发者"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2109716341490106869"
+    "url": "https://x.com/OpenAIDevs/status/2109716341490106869",
+    "track": "openai"
   },
   {
     "id": "2026-10-13-04",
@@ -580,7 +619,8 @@ window.BLOG_POSTS = [
       "meetup",
       "开发者社区"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2109705153591029854"
+    "url": "https://x.com/OpenAIDevs/status/2109705153591029854",
+    "track": "openai"
   },
   {
     "id": "2026-10-13-05",
@@ -594,7 +634,8 @@ window.BLOG_POSTS = [
       "Noam Brown",
       "AI与数学"
     ],
-    "url": "https://x.com/polynoamial/status/2109687261617180780"
+    "url": "https://x.com/polynoamial/status/2109687261617180780",
+    "track": "openai"
   },
   {
     "id": "2026-10-12-01",
@@ -610,7 +651,8 @@ window.BLOG_POSTS = [
       "长上下文费",
       "Day 7"
     ],
-    "url": "https://x.com/thsottiaux/status/2109430343346581527"
+    "url": "https://x.com/thsottiaux/status/2109430343346581527",
+    "track": "openai"
   },
   {
     "id": "2026-10-12-02",
@@ -624,7 +666,8 @@ window.BLOG_POSTS = [
       "周额度",
       "投票"
     ],
-    "url": "https://x.com/thsottiaux/status/2109152716954222849"
+    "url": "https://x.com/thsottiaux/status/2109152716954222849",
+    "track": "openai"
   },
   {
     "id": "2026-10-12-03",
@@ -639,7 +682,8 @@ window.BLOG_POSTS = [
       "28天冲刺",
       "Day 6"
     ],
-    "url": "https://x.com/thsottiaux/status/2109132167112782291"
+    "url": "https://x.com/thsottiaux/status/2109132167112782291",
+    "track": "openai"
   },
   {
     "id": "2026-10-12-04",
@@ -654,7 +698,8 @@ window.BLOG_POSTS = [
       "AI理念",
       "OpenAI研究"
     ],
-    "url": "https://x.com/_aidan_clark_/status/2109098785817407962"
+    "url": "https://x.com/_aidan_clark_/status/2109098785817407962",
+    "track": "openai"
   },
   {
     "id": "2026-10-11-01",
@@ -668,7 +713,8 @@ window.BLOG_POSTS = [
       "28天冲刺",
       "Day 6"
     ],
-    "url": "https://x.com/thsottiaux/status/2109045220411351517"
+    "url": "https://x.com/thsottiaux/status/2109045220411351517",
+    "track": "openai"
   },
   {
     "id": "2026-10-11-02",
@@ -682,7 +728,8 @@ window.BLOG_POSTS = [
       "ChatGPT套餐",
       "第三方接入"
     ],
-    "url": "https://x.com/thsottiaux/status/2108777962053292398"
+    "url": "https://x.com/thsottiaux/status/2108777962053292398",
+    "track": "openai"
   },
   {
     "id": "2026-10-11-03",
@@ -698,7 +745,8 @@ window.BLOG_POSTS = [
       "Finances",
       "Flashcards"
     ],
-    "url": "https://x.com/adamhfry/status/2108745151753626006"
+    "url": "https://x.com/adamhfry/status/2108745151753626006",
+    "track": "openai"
   },
   {
     "id": "2026-10-10-01",
@@ -713,7 +761,8 @@ window.BLOG_POSTS = [
       "Codex",
       "Pro"
     ],
-    "url": "https://x.com/thsottiaux/status/2108645667451318747"
+    "url": "https://x.com/thsottiaux/status/2108645667451318747",
+    "track": "openai"
   },
   {
     "id": "2026-10-10-02",
@@ -728,7 +777,8 @@ window.BLOG_POSTS = [
       "Pro",
       "beta"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2108624138369929725"
+    "url": "https://x.com/OpenAIDevs/status/2108624138369929725",
+    "track": "openai"
   },
   {
     "id": "2026-10-10-03",
@@ -742,7 +792,8 @@ window.BLOG_POSTS = [
       "ChatGPT",
       "mobile"
     ],
-    "url": "https://x.com/thsottiaux/status/2108646052178092403"
+    "url": "https://x.com/thsottiaux/status/2108646052178092403",
+    "track": "openai"
   },
   {
     "id": "2026-10-10-04",
@@ -756,7 +807,8 @@ window.BLOG_POSTS = [
       "Codex",
       "Scheduled Tasks"
     ],
-    "url": "https://x.com/ChatGPT/status/2108636745915052037"
+    "url": "https://x.com/ChatGPT/status/2108636745915052037",
+    "track": "openai"
   },
   {
     "id": "2026-10-10-05",
@@ -770,7 +822,8 @@ window.BLOG_POSTS = [
       "MXC",
       "Codex"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2108573188703781190"
+    "url": "https://x.com/OpenAIDevs/status/2108573188703781190",
+    "track": "openai"
   },
   {
     "id": "2026-10-09-01",
@@ -785,7 +838,8 @@ window.BLOG_POSTS = [
       "ultrafast",
       "Sol"
     ],
-    "url": "https://x.com/thsottiaux/status/2108275041276420573"
+    "url": "https://x.com/thsottiaux/status/2108275041276420573",
+    "track": "openai"
   },
   {
     "id": "2026-10-09-02",
@@ -801,7 +855,8 @@ window.BLOG_POSTS = [
       "Codex",
       "定价"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2108262812489531498"
+    "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-01",
@@ -815,7 +870,8 @@ window.BLOG_POSTS = [
       "GPT-6",
       "28天冲刺"
     ],
-    "url": "https://x.com/thsottiaux/status/2107913674593644711"
+    "url": "https://x.com/thsottiaux/status/2107913674593644711",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-02",
@@ -828,7 +884,8 @@ window.BLOG_POSTS = [
       "社区投票",
       "28天冲刺"
     ],
-    "url": "https://x.com/thsottiaux/status/2107676072871600470"
+    "url": "https://x.com/thsottiaux/status/2107676072871600470",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-03",
@@ -843,7 +900,8 @@ window.BLOG_POSTS = [
       "Sol",
       "Luna"
     ],
-    "url": "https://x.com/OpenAI/status/2107894997538525580"
+    "url": "https://x.com/OpenAI/status/2107894997538525580",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-04",
@@ -856,7 +914,8 @@ window.BLOG_POSTS = [
       "MCP",
       "开发者平台"
     ],
-    "url": "https://x.com/OpenAIDevs/status/2107927072165548276"
+    "url": "https://x.com/OpenAIDevs/status/2107927072165548276",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-05",
@@ -869,7 +928,8 @@ window.BLOG_POSTS = [
       "College Planner",
       "教育"
     ],
-    "url": "https://x.com/OpenAI/status/2107909792945832070"
+    "url": "https://x.com/OpenAI/status/2107909792945832070",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-06",
@@ -883,7 +943,8 @@ window.BLOG_POSTS = [
       "部署安全",
       "后训练"
     ],
-    "url": "https://x.com/michpokrass/status/2107960701788869109"
+    "url": "https://x.com/michpokrass/status/2107960701788869109",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-07",
@@ -896,7 +957,8 @@ window.BLOG_POSTS = [
       "矩阵乘法",
       "科学发现"
     ],
-    "url": "https://x.com/stevenstrogatz/status/2107606017706266686"
+    "url": "https://x.com/stevenstrogatz/status/2107606017706266686",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-08",
@@ -909,7 +971,8 @@ window.BLOG_POSTS = [
       "Sam Altman",
       "ChatGPT"
     ],
-    "url": "https://x.com/sama/status/2107924408597950702"
+    "url": "https://x.com/sama/status/2107924408597950702",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-09",
@@ -923,7 +986,8 @@ window.BLOG_POSTS = [
       "对齐",
       "AI加速研究"
     ],
-    "url": "https://x.com/markchen90/status/2107876922147668198"
+    "url": "https://x.com/markchen90/status/2107876922147668198",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-10",
@@ -936,7 +1000,8 @@ window.BLOG_POSTS = [
       "专家水平",
       "科学突破"
     ],
-    "url": "https://x.com/polynoamial/status/2107947189184164056"
+    "url": "https://x.com/polynoamial/status/2107947189184164056",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-11",
@@ -948,7 +1013,8 @@ window.BLOG_POSTS = [
       "Greg Brockman",
       "科学发现"
     ],
-    "url": "https://x.com/gdb/status/2107640886482104524"
+    "url": "https://x.com/gdb/status/2107640886482104524",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-12",
@@ -961,7 +1027,8 @@ window.BLOG_POSTS = [
       "后训练",
       "GPU"
     ],
-    "url": "https://x.com/michpokrass/status/2107939609380331811"
+    "url": "https://x.com/michpokrass/status/2107939609380331811",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-13",
@@ -975,7 +1042,8 @@ window.BLOG_POSTS = [
       "Codex",
       "Work"
     ],
-    "url": "https://x.com/thsottiaux/status/2107912709715132482"
+    "url": "https://x.com/thsottiaux/status/2107912709715132482",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-14",
@@ -987,7 +1055,8 @@ window.BLOG_POSTS = [
       "dots",
       "产品开放"
     ],
-    "url": "https://x.com/embirico/status/2107961743054086307"
+    "url": "https://x.com/embirico/status/2107961743054086307",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-15",
@@ -1000,7 +1069,8 @@ window.BLOG_POSTS = [
       "插件平台",
       "旧金山"
     ],
-    "url": "https://x.com/mxstbr/status/2107925219243381172"
+    "url": "https://x.com/mxstbr/status/2107925219243381172",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-16",
@@ -1013,7 +1083,8 @@ window.BLOG_POSTS = [
       "演示",
       "开发者"
     ],
-    "url": "https://x.com/romainhuet/status/2107971621717991439"
+    "url": "https://x.com/romainhuet/status/2107971621717991439",
+    "track": "openai"
   },
   {
     "id": "2026-10-08-17",
@@ -1026,6 +1097,7 @@ window.BLOG_POSTS = [
       "macOS",
       "应用演示"
     ],
-    "url": "https://x.com/Dimillian/status/2107757412363211121"
+    "url": "https://x.com/Dimillian/status/2107757412363211121",
+    "track": "openai"
   }
 ];
