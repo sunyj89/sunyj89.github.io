@@ -1,6 +1,74 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-18-08",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "电脑任务平均快约 3 倍，其他回复也快了一半以上。",
+    "keywords": [
+      "Grok Bot",
+      "速度"
+    ],
+    "url": "https://x.com/bot/status/2111184275374813362",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-09",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "新接 Robinhood、Coinbase、Trello、PostHog、beehiiv、eToro 等；团队可向 marketplace 提交连接器。",
+    "keywords": [
+      "Grok Bot",
+      "连接器",
+      "marketplace"
+    ],
+    "url": "https://x.com/bot/status/2111184284786802881",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-10",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "接上 X 后可读 X Chat，跨私信干活。",
+    "keywords": [
+      "Grok Bot",
+      "X Chat"
+    ],
+    "url": "https://x.com/bot/status/2111184282903523440",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-11",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "机器人邮箱支持 plus 别名，可让某条例程只处理发到某个别名的邮件。",
+    "keywords": [
+      "Grok Bot",
+      "邮箱别名",
+      "例程"
+    ],
+    "url": "https://x.com/bot/status/2111184278377857410",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-12",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "在 X 上 @bot 提一嘴，Grok Bot 就会开工。",
+    "keywords": [
+      "Grok Bot",
+      "@bot",
+      "X"
+    ],
+    "url": "https://x.com/bot/status/2111184279938240959",
+    "track": "cursor"
+  },
+  {
     "id": "2026-10-18-05",
     "date": "2026-10-17",
     "person": "Grok Bot",
