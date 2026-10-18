@@ -1,6 +1,51 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-18-05",
+    "date": "2026-10-17",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 在质量、打磨和速度上有改进；聊天里的卡片换了更干净的新布局。",
+    "keywords": [
+      "Grok Bot",
+      "卡片改版",
+      "体验优化"
+    ],
+    "url": "https://x.com/bot/status/2111184270819803351",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-06",
+    "date": "2026-10-17",
+    "person": "romanugarte_",
+    "handle": "romanugarte_",
+    "summary": "目标是让 Bot 好用又意外能打；本周团队主攻「小地方也要顺手」，欢迎继续反馈。（引用 @bot 卡片改版帖）",
+    "keywords": [
+      "Grok Bot",
+      "Roman",
+      "产品体验",
+      "反馈"
+    ],
+    "url": "https://x.com/romanugarte_/status/2111189056860344340",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-18-07",
+    "date": "2026-10-17",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cloud agents 可做可交互画布（dashboard / report），完成后可分享链接；Environments API 进 beta，可编程管理云端环境与 environment.json；单环境最多 500 个仓库，大型多仓启动快约 5 倍。",
+    "keywords": [
+      "Cursor",
+      "Cloud agents",
+      "interactive canvas",
+      "Environments API",
+      "多仓"
+    ],
+    "url": "https://x.com/cursor_ai/status/2111193957527146711",
+    "track": "cursor"
+  },
+  {
     "id": "2026-10-18-01",
     "date": "2026-10-18",
     "person": "Tibo",
