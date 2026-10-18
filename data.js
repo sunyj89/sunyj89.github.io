@@ -1,6 +1,62 @@
 // 盯着 Tibo 博客条目，新的在前
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-18-01",
+    "date": "2026-10-18",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 13 是额度重置（\"Le limit reset\"），原定美西时间当天结束前（约北京时间 10月18日 15:00 前）到账，实际 05:12 已确认 \"Done\"。原帖没说明范围和原因，这次没有投票。codex-resets.com 累计 63 次。",
+    "keywords": [
+      "Day 13",
+      "额度重置",
+      "已到账",
+      "Codex",
+      "28天冲刺"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111492673890824348"
+  },
+  {
+    "id": "2026-10-18-02",
+    "date": "2026-10-17",
+    "person": "stevendcoffey",
+    "handle": "stevendcoffey",
+    "summary": "Agents API 本周更新：6-Astra Ultrafast 上线；沙盒快照可在闲置后恢复环境，闲置环境不计费；可编程创建环境密钥；Artifact SDK 可在托管沙盒中编辑表格、幻灯片和 Word 文档；另有轮次级历史和 vault 元数据筛选。（@OpenAIDevs、@dkundel 转发）",
+    "keywords": [
+      "Agents API",
+      "6-Astra Ultrafast",
+      "沙盒快照",
+      "Artifact SDK",
+      "开发者"
+    ],
+    "url": "https://x.com/stevendcoffey/status/2111266691187704240"
+  },
+  {
+    "id": "2026-10-18-03",
+    "date": "2026-10-18",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "官方整理了一份社区作品合集，附复刻方法，作为周末项目灵感。",
+    "keywords": [
+      "社区作品",
+      "周末项目",
+      "OpenAI Devs"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2111585491237650691"
+  },
+  {
+    "id": "2026-10-18-04",
+    "date": "2026-10-18",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 的工作 dot 和私人 dot 通过邮件协作取资料，再联系会计师处理税务，一共用了 20 分钟；他说 \"We're still so early\"。",
+    "keywords": [
+      "dots",
+      "多智能体协作",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111495392559067199"
+  },
+  {
     "id": "2026-10-17-01",
     "date": "2026-10-17",
     "person": "Tibo",
