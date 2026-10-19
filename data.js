@@ -1,6 +1,65 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-19-01",
+    "date": "2026-10-18",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "回应用户 dot 在 Codex 桌面端消失（\"EU sorry\"）：在别处创建过的 dot，人在欧盟时会继续可用，dots 将来会在欧盟上线。被问为何 Grok Bot 能在欧盟用而 dots 要等，他回复「我们重视当地法规」，没给时间表。",
+    "keywords": [
+      "dots",
+      "欧盟",
+      "合规",
+      "ChatGPT",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111832959842161136",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-19-02",
+    "date": "2026-10-19",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 14 前夕发问 \"What's cooking today\"；截至北京时间 09:00 还没公布当天是新功能还是重置。",
+    "keywords": [
+      "Day 14",
+      "28天冲刺",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111849858374177222",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-19-03",
+    "date": "2026-10-19",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "调侃现在有人在街上找他要重置，打算印小卡片发；被问粉丝破百万会不会重置，回 \"We'll see\"。属玩笑，不是重置公告。",
+    "keywords": [
+      "额度重置",
+      "Tibo",
+      "社区"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111918768733753664",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-19-04",
+    "date": "2026-10-18",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "在路上用 Codex Cloud 给独立游戏 Dark Veil 做好并部署了落地页（chatgpt.site），之后又更新加入更多战斗画面。",
+    "keywords": [
+      "Codex Cloud",
+      "chatgpt.site",
+      "Sites",
+      "独立游戏"
+    ],
+    "url": "https://x.com/Dimillian/status/2111776446586687828",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-18-08",
     "date": "2026-10-17",
     "person": "Grok Bot",
