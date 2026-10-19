@@ -37,7 +37,7 @@ window.BLOG_POSTS = [
     "date": "2026-10-19",
     "person": "Tibo",
     "handle": "thsottiaux",
-    "summary": "28 天冲刺 Day 14 前夕发问 \"What's cooking today\"；截至北京时间 09:00 还没公布当天是新功能还是重置。",
+    "summary": "28 天冲刺 Day 14 前夕发问 \"What's cooking today\"；截至北京时间 09:00 还没公布。同日 09:18 已公布为 Codex 桌面端可编辑同一线程更早的消息（见 2026-10-19-05），不是重置。",
     "keywords": [
       "Day 14",
       "28天冲刺",
