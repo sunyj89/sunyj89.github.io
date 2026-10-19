@@ -1,6 +1,22 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-19-05",
+    "date": "2026-10-19",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 14：Codex 桌面端现在可以编辑同一线程里更早的消息。Tibo 称是长期被催的小体验改进，拖太久了才上。不是额度重置。",
+    "keywords": [
+      "Day 14",
+      "编辑历史消息",
+      "Codex桌面端",
+      "体验",
+      "28天冲刺"
+    ],
+    "url": "https://x.com/thsottiaux/status/2111990254408434095",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-19-01",
     "date": "2026-10-18",
     "person": "Tibo",
