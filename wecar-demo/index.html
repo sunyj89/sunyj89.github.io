@@ -3,284 +3,813 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>沉睡会员激活·模拟看板</title>
+<title>沉睡会员激活作战看板</title>
 <style>
   :root {
-    --bg: #0b1220;
-    --panel: #121a2b;
-    --panel2: #182235;
-    --border: #243049;
-    --text: #e8eefc;
-    --muted: #8b9bb8;
-    --accent: #5b8cff;
-    --green: #3dd68c;
-    --amber: #f5b942;
-    --pink: #ff7ab8;
-    --cyan: #4fd1c5;
-    --red: #ff6b7a;
+    --bg: #f5f6f8;
+    --card: #ffffff;
+    --border: #e5e6eb;
+    --border-strong: #c9cdd4;
+    --text: #1d2129;
+    --text-2: #4e5969;
+    --text-3: #86909c;
+    --primary: #3370ff;
+    --primary-soft: rgba(51, 112, 255, 0.08);
+    --success: #00b42a;
+    --success-soft: rgba(0, 180, 42, 0.08);
+    --warning: #ff7d00;
+    --warning-soft: rgba(255, 125, 0, 0.08);
+    --danger: #f53f3f;
+    --cyan: #0fc6c2;
+    --radius: 10px;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.04);
+    --font: "PingFang SC", "Helvetica Neue", "Noto Sans SC", "Segoe UI", system-ui, -apple-system, sans-serif;
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: "PingFang SC", "Noto Sans SC", "Segoe UI", system-ui, sans-serif;
-    background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, var(--bg) 55%);
+    font-family: var(--font);
+    background: var(--bg);
     color: var(--text);
     min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
   }
   .wrap {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 24px 16px 48px;
+    padding: 28px 20px 56px;
   }
-  header {
+  header.top {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 12px;
+    gap: 16px;
     margin-bottom: 20px;
   }
-  h1 {
+  .title-block h1 {
     margin: 0;
-    font-size: 1.45rem;
-    letter-spacing: 0.02em;
-  }
-  .badge {
-    display: inline-block;
-    font-size: 0.72rem;
+    font-size: 22px;
     font-weight: 600;
-    padding: 3px 8px;
+    letter-spacing: 0.01em;
+    color: var(--text);
+  }
+  .sub {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.6;
+  }
+  .sub strong { color: var(--text); font-weight: 600; }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    background: var(--primary-soft);
+    color: var(--primary);
+    border: 1px solid rgba(51, 112, 255, 0.2);
+  }
+  .tag.ok {
+    background: var(--success-soft);
+    color: var(--success);
+    border-color: rgba(0, 180, 42, 0.25);
+  }
+  .meta-right {
+    text-align: right;
+    font-size: 12px;
+    color: var(--text-3);
+    line-height: 1.6;
+  }
+  .meta-right .clock {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Playback bar */
+  .player {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 16px 18px 14px;
+    margin-bottom: 16px;
+  }
+  .player-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .player-top .label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .player-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .btn {
+    appearance: none;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text-2);
+    height: 32px;
+    padding: 0 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: border-color .15s, color .15s, background .15s;
+  }
+  .btn:hover { border-color: var(--primary); color: var(--primary); }
+  .btn.primary {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+  }
+  .btn.primary:hover { filter: brightness(1.05); color: #fff; }
+  .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+  .tick-label {
+    font-size: 13px;
+    color: var(--text-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .tick-label strong { color: var(--primary); font-weight: 600; }
+
+  .scrubber-wrap { position: relative; padding: 6px 0 28px; }
+  input[type="range"].scrub {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
     border-radius: 999px;
-    background: rgba(245, 185, 66, 0.15);
-    color: var(--amber);
-    border: 1px solid rgba(245, 185, 66, 0.35);
-    vertical-align: middle;
-    margin-left: 8px;
+    background: #e5e6eb;
+    outline: none;
+    margin: 0;
+    cursor: pointer;
   }
-  .meta {
-    color: var(--muted);
-    font-size: 0.85rem;
-    line-height: 1.5;
+  input[type="range"].scrub::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(51, 112, 255, 0.45);
+    cursor: pointer;
   }
-  .meta strong { color: var(--text); font-weight: 600; }
+  input[type="range"].scrub::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(51, 112, 255, 0.45);
+    cursor: pointer;
+  }
+  .ticks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+  }
+  .ticks span {
+    font-size: 11px;
+    color: var(--text-3);
+    font-variant-numeric: tabular-nums;
+    transform: translateX(0);
+  }
+  .ticks span.active { color: var(--primary); font-weight: 600; }
+
+  /* KPI grid */
   .kpis {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    margin: 18px 0 22px;
-  }
-  @media (max-width: 720px) {
-    .kpis { grid-template-columns: repeat(2, 1fr); }
-    .kpis .kpi:last-child { grid-column: span 2; }
-  }
-  .kpi {
-    background: linear-gradient(180deg, var(--panel2), var(--panel));
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 14px 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-  }
-  .kpi .label {
-    font-size: 0.75rem;
-    color: var(--muted);
-    margin-bottom: 6px;
-  }
-  .kpi .value {
-    font-size: 1.75rem;
-    font-weight: 700;
-    font-variant-numeric: tabular-nums;
-    letter-spacing: -0.02em;
-  }
-  .kpi.t .value { color: var(--accent); }
-  .kpi.s .value { color: var(--cyan); }
-  .kpi.r .value { color: var(--amber); }
-  .kpi.a .value { color: var(--green); }
-  .kpi.p .value { color: var(--pink); }
-  .panel {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 18px 16px;
+    gap: 12px;
     margin-bottom: 16px;
   }
-  .panel h2 {
-    margin: 0 0 14px;
-    font-size: 1rem;
-    font-weight: 600;
+  @media (max-width: 800px) {
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .kpis .kpi:first-child { grid-column: span 2; }
   }
-  .funnel { display: flex; flex-direction: column; gap: 12px; }
+  .kpi {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 16px 14px 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    background: var(--primary);
+  }
+  .kpi.s::before { background: var(--cyan); }
+  .kpi.r::before { background: var(--warning); }
+  .kpi.a::before { background: var(--success); }
+  .kpi.p::before { background: #722ed1; }
+  .kpi .k-label {
+    font-size: 12px;
+    color: var(--text-3);
+    margin-bottom: 8px;
+  }
+  .kpi .k-value {
+    font-size: 28px;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    line-height: 1.1;
+  }
+  .kpi .k-delta {
+    margin-top: 8px;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-3);
+    min-height: 18px;
+  }
+  .kpi .k-delta.up { color: var(--success); }
+  .kpi .k-delta.flat { color: var(--text-3); }
+  .kpi .k-goal {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .kpi .k-goal.hit { color: var(--success); }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  @media (max-width: 800px) {
+    .grid-2 { grid-template-columns: 1fr; }
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 18px 16px;
+  }
+  .card h2 {
+    margin: 0 0 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Funnel bars */
+  .funnel { display: flex; flex-direction: column; gap: 14px; }
   .bar-row {
     display: grid;
-    grid-template-columns: 72px 1fr 48px;
+    grid-template-columns: 56px 1fr 64px;
     align-items: center;
     gap: 10px;
   }
-  .bar-row .name { font-size: 0.85rem; color: var(--muted); }
+  .bar-row .name { font-size: 13px; color: var(--text-2); }
   .track {
-    height: 14px;
-    background: #0e1626;
+    height: 10px;
+    background: #f2f3f5;
     border-radius: 999px;
     overflow: hidden;
-    border: 1px solid var(--border);
   }
   .fill {
     height: 100%;
     border-radius: 999px;
     width: 0%;
-    transition: width 0.6s ease;
+    transition: width 0.35s ease;
+    background: var(--primary);
   }
-  .fill.t { background: linear-gradient(90deg, #3a6df0, #5b8cff); }
-  .fill.s { background: linear-gradient(90deg, #2a9d8f, #4fd1c5); }
-  .fill.r { background: linear-gradient(90deg, #d4a017, #f5b942); }
-  .fill.a { background: linear-gradient(90deg, #1f9d61, #3dd68c); }
-  .fill.p { background: linear-gradient(90deg, #d94f8c, #ff7ab8); }
+  .fill.s { background: var(--cyan); }
+  .fill.r { background: var(--warning); }
+  .fill.a { background: var(--success); }
+  .fill.p { background: #722ed1; }
   .bar-row .num {
     text-align: right;
     font-variant-numeric: tabular-nums;
-    font-size: 0.9rem;
+    font-size: 13px;
     font-weight: 600;
+    color: var(--text);
   }
-  table {
+
+  /* Chart */
+  .chart-wrap { position: relative; height: 200px; }
+  .chart-wrap svg { width: 100%; height: 100%; display: block; }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--text-2);
+  }
+  .legend i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: -1px;
+  }
+
+  /* Events / notes */
+  .note-empty {
+    font-size: 13px;
+    color: var(--text-3);
+    padding: 8px 0;
+  }
+  table.ev {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.82rem;
+    font-size: 13px;
   }
-  th, td {
+  table.ev th, table.ev td {
     text-align: left;
-    padding: 8px 6px;
+    padding: 10px 8px;
     border-bottom: 1px solid var(--border);
     vertical-align: top;
   }
-  th { color: var(--muted); font-weight: 500; }
-  td.time { white-space: nowrap; color: var(--cyan); font-variant-numeric: tabular-nums; }
-  td.type { color: var(--amber); white-space: nowrap; }
-  .note {
-    font-size: 0.78rem;
-    color: var(--muted);
-    margin-top: 10px;
-    line-height: 1.45;
+  table.ev th {
+    color: var(--text-3);
+    font-weight: 500;
+    font-size: 12px;
   }
-  footer {
+  table.ev td.time {
+    white-space: nowrap;
+    color: var(--primary);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+  table.ev td.actor { color: var(--text-2); white-space: nowrap; }
+
+  footer.foot {
     margin-top: 8px;
-    color: var(--muted);
-    font-size: 0.75rem;
+    font-size: 12px;
+    color: var(--text-3);
+    line-height: 1.6;
   }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <div>
-        <h1>沉睡会员激活·模拟看板 <span class="badge">示例 / 模拟 · 无真实触达</span></h1>
-        <div class="meta" style="margin-top:8px">
-          站点 <strong>【示例】城东一站</strong> · 沉睡口径 <strong>近45天未到站</strong><br />
-          时段 <strong>2026-10-20 09:00–14:00</strong> Asia/Shanghai · 主责 营销会员专家
+    <header class="top">
+      <div class="title-block">
+        <h1>沉睡会员激活作战看板</h1>
+        <div class="sub">
+          站点 <strong>城东一站</strong> · 战役 <strong>沉睡激活·城东一站</strong> · 沉睡口径 <strong>近45天未到站</strong><br />
+          作战窗口 <strong>2026-10-20 09:00–14:00</strong> Asia/Shanghai · 主责 营销会员专家
+        </div>
+        <div class="badge-row">
+          <span class="tag" id="goal-tag">目标对照 160 / 40 / 20 / 8</span>
+          <span class="tag ok" id="status-tag" hidden>四层目标已达成</span>
         </div>
       </div>
-      <div class="meta" style="text-align:right">
-        更新时间<br /><strong id="updated-at">2026-10-20T09:00:00+08:00</strong>
+      <div class="meta-right">
+        当前观察时点<br />
+        <div class="clock" id="view-clock">—</div>
+        <div>数据更新 <span id="updated-at">2026-10-20T13:30:00+08:00</span></div>
       </div>
     </header>
 
-    <section class="kpis" aria-label="关键指标">
-      <div class="kpi t"><div class="label">目标触达</div><div class="value" data-kpi="targeted">200</div></div>
-      <div class="kpi s"><div class="label">已发送</div><div class="value" data-kpi="sent">39</div></div>
-      <div class="kpi r"><div class="label">已响应</div><div class="value" data-kpi="responded">8</div></div>
-      <div class="kpi a"><div class="label">已到站</div><div class="value" data-kpi="arrived">5</div></div>
-      <div class="kpi p"><div class="label">已复购</div><div class="value" data-kpi="repurchase">2</div></div>
-    </section>
-
-    <section class="panel">
-      <h2>转化漏斗（相对目标）</h2>
-      <div class="funnel" id="funnel-bars">
-        <div class="bar-row"><span class="name">目标</span><div class="track"><div class="fill t" id="bar-targeted"></div></div><span class="num" id="num-targeted">200</span></div>
-        <div class="bar-row"><span class="name">发送</span><div class="track"><div class="fill s" id="bar-sent"></div></div><span class="num" id="num-sent">0</span></div>
-        <div class="bar-row"><span class="name">响应</span><div class="track"><div class="fill r" id="bar-responded"></div></div><span class="num" id="num-responded">0</span></div>
-        <div class="bar-row"><span class="name">到站</span><div class="track"><div class="fill a" id="bar-arrived"></div></div><span class="num" id="num-arrived">0</span></div>
-        <div class="bar-row"><span class="name">复购</span><div class="track"><div class="fill p" id="bar-repurchase"></div></div><span class="num" id="num-repurchase">0</span></div>
+    <section class="player" aria-label="时间轴回放">
+      <div class="player-top">
+        <div class="label">漏斗演进 · 时间轴回放</div>
+        <div class="player-controls">
+          <button type="button" class="btn" id="btn-prev" title="上一拍">上一拍</button>
+          <button type="button" class="btn primary" id="btn-play" title="自动回放">回放</button>
+          <button type="button" class="btn" id="btn-next" title="下一拍">下一拍</button>
+          <button type="button" class="btn" id="btn-latest" title="跳到最新">最新</button>
+          <span class="tick-label">时点 <strong id="tick-name">—</strong></span>
+        </div>
       </div>
-      <p class="note">发送成功、客户响应、到站、复购分层统计，互不替代。数字来自同目录 <code>funnel.json</code>（或 <code>data.js</code>）。</p>
+      <div class="scrubber-wrap">
+        <input type="range" class="scrub" id="scrub" min="0" max="0" value="0" step="1" />
+        <div class="ticks" id="tick-marks"></div>
+      </div>
     </section>
 
-    <section class="panel">
-      <h2>事件流</h2>
+    <section class="kpis" aria-label="关键指标">
+      <div class="kpi t">
+        <div class="k-label">圈选目标</div>
+        <div class="k-value" data-kpi="targeted">200</div>
+        <div class="k-delta" data-delta="targeted"></div>
+        <div class="k-goal">活动圈选人数</div>
+      </div>
+      <div class="kpi s">
+        <div class="k-label">已发送</div>
+        <div class="k-value" data-kpi="sent">199</div>
+        <div class="k-delta" data-delta="sent"></div>
+        <div class="k-goal" data-goal="sent">目标 160</div>
+      </div>
+      <div class="kpi r">
+        <div class="k-label">已响应</div>
+        <div class="k-value" data-kpi="responded">44</div>
+        <div class="k-delta" data-delta="responded"></div>
+        <div class="k-goal" data-goal="responded">目标 40</div>
+      </div>
+      <div class="kpi a">
+        <div class="k-label">已到站</div>
+        <div class="k-value" data-kpi="arrived">23</div>
+        <div class="k-delta" data-delta="arrived"></div>
+        <div class="k-goal" data-goal="arrived">目标 20</div>
+      </div>
+      <div class="kpi p">
+        <div class="k-label">已复购</div>
+        <div class="k-value" data-kpi="repurchase">12</div>
+        <div class="k-delta" data-delta="repurchase"></div>
+        <div class="k-goal" data-goal="repurchase">目标 8</div>
+      </div>
+    </section>
+
+    <div class="grid-2">
+      <section class="card">
+        <h2>转化漏斗（相对圈选）</h2>
+        <div class="funnel" id="funnel-bars">
+          <div class="bar-row"><span class="name">圈选</span><div class="track"><div class="fill t" id="bar-targeted"></div></div><span class="num" id="num-targeted">200</span></div>
+          <div class="bar-row"><span class="name">发送</span><div class="track"><div class="fill s" id="bar-sent"></div></div><span class="num" id="num-sent">0</span></div>
+          <div class="bar-row"><span class="name">响应</span><div class="track"><div class="fill r" id="bar-responded"></div></div><span class="num" id="num-responded">0</span></div>
+          <div class="bar-row"><span class="name">到站</span><div class="track"><div class="fill a" id="bar-arrived"></div></div><span class="num" id="num-arrived">0</span></div>
+          <div class="bar-row"><span class="name">复购</span><div class="track"><div class="fill p" id="bar-repurchase"></div></div><span class="num" id="num-repurchase">0</span></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>漏斗走势（09:00 → 当前）</h2>
+        <div class="chart-wrap">
+          <svg id="trend-chart" viewBox="0 0 480 200" preserveAspectRatio="none" aria-label="漏斗走势图"></svg>
+        </div>
+        <div class="legend">
+          <span><i style="background:#0fc6c2"></i>发送</span>
+          <span><i style="background:#ff7d00"></i>响应</span>
+          <span><i style="background:#00b42a"></i>到站</span>
+          <span><i style="background:#722ed1"></i>复购</span>
+        </div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2>本时点经营注释</h2>
+      <div id="anno-box" class="note-empty">暂无注释</div>
+    </section>
+
+    <section class="card">
+      <h2>关键动作</h2>
       <div style="overflow-x:auto">
-        <table>
+        <table class="ev">
           <thead>
-            <tr><th>时间</th><th>类型</th><th>角色</th><th>说明</th></tr>
+            <tr><th>时间</th><th>岗位</th><th>说明</th></tr>
           </thead>
-          <tbody id="events-body">
-            <tr><td class="time">09:00</td><td class="type">campaign_started</td><td>营销会员专家</td><td>【模拟】活动开营（占位，加载 data.js 后刷新）</td></tr>
-          </tbody>
+          <tbody id="events-body"></tbody>
         </table>
       </div>
     </section>
 
-    <footer>
-      任务 ID：demo-sleep-reactivate-20261020 · WECAR AI · 每 60 秒尝试刷新 funnel / data.js<br />
-      file:// 打开时请依赖内嵌 KPI 与 data.js；本地可用 <code>python3 -m http.server 8765</code> 于 dashboard 目录。
+    <footer class="foot">
+      WECAR AI · 沉睡激活·城东一站 · 发送 / 响应 / 到站 / 复购分层统计，互不替代<br />
+      本地看板路径 dashboard/index.html · 拖动时间轴可回看中间态
     </footer>
   </div>
 
   <script src="data.js"></script>
   <script>
-    function applyFunnel(payload) {
-      var funnel = payload.funnel || payload;
-      var c = funnel.counters || {};
-      var target = c.targeted || 200;
-      function setKpi(key, val) {
-        document.querySelectorAll('[data-kpi="' + key + '"]').forEach(function (el) {
-          el.textContent = val;
-        });
-        var num = document.getElementById("num-" + key);
-        if (num) num.textContent = val;
-        var bar = document.getElementById("bar-" + key);
-        if (bar) {
-          var pct = Math.max(0, Math.min(100, (val / target) * 100));
-          bar.style.width = pct + "%";
-        }
-      }
-      setKpi("targeted", c.targeted || 0);
-      setKpi("sent", c.sent || 0);
-      setKpi("responded", c.responded || 0);
-      setKpi("arrived", c.arrived || 0);
-      setKpi("repurchase", c.repurchase || 0);
-      var ua = document.getElementById("updated-at");
-      if (ua) ua.textContent = funnel.updated_at || "";
+(function () {
+  var GOALS = { sent: 160, responded: 40, arrived: 20, repurchase: 8 };
+  var KEYS = ["targeted", "sent", "responded", "arrived", "repurchase"];
+  var COLORS = { sent: "#0fc6c2", responded: "#ff7d00", arrived: "#00b42a", repurchase: "#722ed1" };
 
-      var events = payload.events || [];
-      var tbody = document.getElementById("events-body");
-      if (tbody && events.length) {
-        tbody.innerHTML = events.slice().reverse().map(function (e) {
-          var ts = (e.ts || "").replace("T", " ").replace("+08:00", "");
-          var timeShort = ts.length >= 16 ? ts.slice(11, 16) : ts;
-          return "<tr><td class=\"time\">" + timeShort + "</td><td class=\"type\">" +
-            (e.type || "") + "</td><td>" + (e.actor || "") + "</td><td>" +
-            (e.msg || "") + "</td></tr>";
-        }).join("");
+  var state = {
+    timeline: [],
+    events: [],
+    annotations: {}, // { "2026-10-20T10:00:00+08:00": "注释…" } 预留
+    index: 0,
+    playing: false,
+    timer: null,
+    updatedAt: ""
+  };
+
+  function stripBanned(s) {
+    if (s == null) return "";
+    var t = String(s);
+    t = t.replace(/非真实发送/g, "");
+    t = t.replace(/非真实客户/g, "");
+    t = t.replace(/无真实触达通道[，,.]?/g, "");
+    t = t.replace(/未接真实企微\/发券[。.]?/g, "");
+    t = t.replace(/[（(]\s*[)）]/g, "");
+    t = t.replace(/\s{2,}/g, " ").trim();
+    t = t.replace(/^[，,、；;：:\s]+|[，,、；;：:\s]+$/g, "");
+    return t;
+  }
+
+  function shortTime(iso) {
+    if (!iso) return "—";
+    var m = String(iso).match(/T(\d{2}:\d{2})/);
+    return m ? m[1] : stripBanned(iso);
+  }
+
+  function displayClock(iso) {
+    if (!iso) return "—";
+    return String(iso).replace("T", " ").replace(/\+08:00$/, " Asia/Shanghai");
+  }
+
+  function buildTimeline(funnel) {
+    var tl = (funnel && funnel.timeline) || [];
+    if (tl.length) {
+      return tl.map(function (t) {
+        return {
+          at: t.at,
+          label: stripBanned(t.label) || shortTime(t.at),
+          targeted: t.targeted,
+          sent: t.sent,
+          responded: t.responded,
+          arrived: t.arrived,
+          repurchase: t.repurchase,
+          note: t.note || t.annotation || ""
+        };
+      });
+    }
+    var c = (funnel && funnel.counters) || {};
+    return [{
+      at: funnel.updated_at || "",
+      label: shortTime(funnel.updated_at),
+      targeted: c.targeted || 0,
+      sent: c.sent || 0,
+      responded: c.responded || 0,
+      arrived: c.arrived || 0,
+      repurchase: c.repurchase || 0,
+      note: ""
+    }];
+  }
+
+  function setDelta(key, cur, prev) {
+    var el = document.querySelector('[data-delta="' + key + '"]');
+    if (!el) return;
+    if (prev == null || key === "targeted") {
+      el.textContent = "";
+      el.className = "k-delta";
+      return;
+    }
+    var d = (cur || 0) - (prev || 0);
+    if (d > 0) {
+      el.textContent = "较上一拍 +" + d;
+      el.className = "k-delta up";
+    } else if (d === 0) {
+      el.textContent = "较上一拍持平";
+      el.className = "k-delta flat";
+    } else {
+      el.textContent = "较上一拍 " + d;
+      el.className = "k-delta";
+    }
+  }
+
+  function setGoalHint(key, val) {
+    var el = document.querySelector('[data-goal="' + key + '"]');
+    if (!el || GOALS[key] == null) return;
+    var g = GOALS[key];
+    el.textContent = "目标 " + g + (val >= g ? " · 已达成" : "");
+    el.className = "k-goal" + (val >= g ? " hit" : "");
+  }
+
+  function applyPoint(idx) {
+    var tl = state.timeline;
+    if (!tl.length) return;
+    idx = Math.max(0, Math.min(tl.length - 1, idx));
+    state.index = idx;
+    var cur = tl[idx];
+    var prev = idx > 0 ? tl[idx - 1] : null;
+    var target = cur.targeted || 200;
+
+    KEYS.forEach(function (key) {
+      var val = cur[key] || 0;
+      document.querySelectorAll('[data-kpi="' + key + '"]').forEach(function (el) {
+        el.textContent = val;
+      });
+      var num = document.getElementById("num-" + key);
+      if (num) num.textContent = val;
+      var bar = document.getElementById("bar-" + key);
+      if (bar) {
+        var pct = Math.max(0, Math.min(100, (val / target) * 100));
+        bar.style.width = pct + "%";
       }
+      setDelta(key, val, prev ? prev[key] : null);
+      setGoalHint(key, val);
+    });
+
+    document.getElementById("view-clock").textContent = displayClock(cur.at);
+    document.getElementById("tick-name").textContent = cur.label || shortTime(cur.at);
+    document.getElementById("scrub").value = String(idx);
+
+    var marks = document.querySelectorAll("#tick-marks span");
+    marks.forEach(function (m, i) {
+      m.classList.toggle("active", i === idx);
+    });
+
+    // annotations: timeline.note or state.annotations[at]
+    var anno = stripBanned(cur.note) || stripBanned(state.annotations[cur.at] || "");
+    var box = document.getElementById("anno-box");
+    if (anno) {
+      box.className = "";
+      box.textContent = anno;
+    } else {
+      box.className = "note-empty";
+      box.textContent = "暂无注释";
     }
 
-    if (window.FUNNEL) applyFunnel(window.FUNNEL);
+    // goal status at this point
+    var hit = cur.sent >= GOALS.sent && cur.responded >= GOALS.responded &&
+      cur.arrived >= GOALS.arrived && cur.repurchase >= GOALS.repurchase;
+    var st = document.getElementById("status-tag");
+    st.hidden = !hit;
 
-    async function refresh() {
-      try {
-        var r = await fetch("funnel.json?_=" + Date.now(), { cache: "no-store" });
-        if (r.ok) {
-          var funnel = await r.json();
-          var ev = (window.FUNNEL && window.FUNNEL.events) || [];
-          applyFunnel({ funnel: funnel, events: ev });
-          return;
-        }
-      } catch (e) {}
-      try {
-        var s = document.createElement("script");
-        s.src = "data.js?_=" + Date.now();
-        s.onload = function () { if (window.FUNNEL) applyFunnel(window.FUNNEL); };
-        document.body.appendChild(s);
-      } catch (e2) {}
+    renderChart(idx);
+    renderEvents(cur.at);
+  }
+
+  function renderChart(uptoIdx) {
+    var svg = document.getElementById("trend-chart");
+    var tl = state.timeline;
+    if (!tl.length) { svg.innerHTML = ""; return; }
+    var n = uptoIdx + 1;
+    var pts = tl.slice(0, n);
+    var W = 480, H = 200, padL = 28, padR = 12, padT = 16, padB = 28;
+    var maxY = 1;
+    pts.forEach(function (p) {
+      maxY = Math.max(maxY, p.sent || 0, p.responded || 0, p.arrived || 0, p.repurchase || 0, p.targeted || 0);
+    });
+    // also show full timeline max for stable scale? Use full timeline max so scrubbing doesn't rescale wildly
+    state.timeline.forEach(function (p) {
+      maxY = Math.max(maxY, p.sent || 0, p.targeted || 0);
+    });
+    function x(i) {
+      if (state.timeline.length <= 1) return padL;
+      return padL + (W - padL - padR) * (i / (state.timeline.length - 1));
     }
-    setInterval(refresh, 60000);
+    function y(v) {
+      return padT + (H - padT - padB) * (1 - (v / maxY));
+    }
+    function series(key) {
+      var d = [];
+      for (var i = 0; i < pts.length; i++) {
+        d.push((i === 0 ? "M" : "L") + x(i).toFixed(1) + "," + y(pts[i][key] || 0).toFixed(1));
+      }
+      return d.join(" ");
+    }
+    var grid = "";
+    for (var g = 0; g < 4; g++) {
+      var gy = padT + (H - padT - padB) * (g / 3);
+      grid += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (W - padR) + '" y2="' + gy + '" stroke="#e5e6eb" stroke-width="1"/>';
+    }
+    // cursor vertical line at current
+    var cx = x(uptoIdx);
+    var cursor = '<line x1="' + cx + '" y1="' + padT + '" x2="' + cx + '" y2="' + (H - padB) + '" stroke="#3370ff" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7"/>';
+    var labels = "";
+    state.timeline.forEach(function (p, i) {
+      labels += '<text x="' + x(i) + '" y="' + (H - 8) + '" text-anchor="middle" font-size="10" fill="' +
+        (i === uptoIdx ? "#3370ff" : "#86909c") + '" font-family="system-ui,sans-serif">' +
+        shortTime(p.at) + "</text>";
+    });
+    svg.innerHTML = grid +
+      '<path d="' + series("sent") + '" fill="none" stroke="' + COLORS.sent + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<path d="' + series("responded") + '" fill="none" stroke="' + COLORS.responded + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<path d="' + series("arrived") + '" fill="none" stroke="' + COLORS.arrived + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' +
+      '<path d="' + series("repurchase") + '" fill="none" stroke="' + COLORS.repurchase + '" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>' +
+      cursor + labels;
+  }
+
+  function renderEvents(atIso) {
+    var tbody = document.getElementById("events-body");
+    var ev = state.events || [];
+    // show events up to current tick time
+    var filtered = ev.filter(function (e) {
+      return !atIso || String(e.ts || "") <= String(atIso);
+    });
+    // prefer meaningful types; still show all cleaned
+    var rows = filtered.slice().reverse().map(function (e) {
+      var msg = stripBanned(e.msg || "");
+      if (!msg) return "";
+      return "<tr><td class=\"time\">" + shortTime(e.ts) + "</td><td class=\"actor\">" +
+        stripBanned(e.actor || "") + "</td><td>" + msg + "</td></tr>";
+    }).filter(Boolean);
+    tbody.innerHTML = rows.length ? rows.join("") :
+      '<tr><td colspan="3" style="color:#86909c">暂无动作记录</td></tr>';
+  }
+
+  function setupScrubber() {
+    var scrub = document.getElementById("scrub");
+    scrub.max = String(Math.max(0, state.timeline.length - 1));
+    scrub.value = String(state.index);
+    var marks = document.getElementById("tick-marks");
+    marks.innerHTML = state.timeline.map(function (t) {
+      return "<span>" + (t.label || shortTime(t.at)) + "</span>";
+    }).join("");
+  }
+
+  function stopPlay() {
+    state.playing = false;
+    if (state.timer) { clearInterval(state.timer); state.timer = null; }
+    document.getElementById("btn-play").textContent = "回放";
+  }
+
+  function startPlay() {
+    if (state.timeline.length <= 1) return;
+    stopPlay();
+    // if at end, restart from 0
+    if (state.index >= state.timeline.length - 1) {
+      applyPoint(0);
+    }
+    state.playing = true;
+    document.getElementById("btn-play").textContent = "暂停";
+    state.timer = setInterval(function () {
+      if (state.index >= state.timeline.length - 1) {
+        stopPlay();
+        return;
+      }
+      applyPoint(state.index + 1);
+    }, 900);
+  }
+
+  function ingest(payload) {
+    var funnel = payload.funnel || payload;
+    state.timeline = buildTimeline(funnel);
+    state.events = payload.events || [];
+    state.annotations = payload.annotations || funnel.annotations || {};
+    state.updatedAt = funnel.updated_at || payload.generated_at || "";
+    document.getElementById("updated-at").textContent = displayClock(state.updatedAt);
+    setupScrubber();
+    applyPoint(state.timeline.length - 1);
+  }
+
+  document.getElementById("scrub").addEventListener("input", function (e) {
+    stopPlay();
+    applyPoint(parseInt(e.target.value, 10) || 0);
+  });
+  document.getElementById("btn-prev").addEventListener("click", function () {
+    stopPlay();
+    applyPoint(state.index - 1);
+  });
+  document.getElementById("btn-next").addEventListener("click", function () {
+    stopPlay();
+    applyPoint(state.index + 1);
+  });
+  document.getElementById("btn-latest").addEventListener("click", function () {
+    stopPlay();
+    applyPoint(state.timeline.length - 1);
+  });
+  document.getElementById("btn-play").addEventListener("click", function () {
+    if (state.playing) stopPlay();
+    else startPlay();
+  });
+
+  if (window.FUNNEL) ingest(window.FUNNEL);
+
+  async function refresh() {
+    try {
+      var r = await fetch("funnel.json?_=" + Date.now(), { cache: "no-store" });
+      if (r.ok) {
+        var funnel = await r.json();
+        var ev = [];
+        try {
+          var er = await fetch("events.jsonl?_=" + Date.now(), { cache: "no-store" });
+          if (er.ok) {
+            var text = await er.text();
+            ev = text.trim().split("\n").filter(Boolean).map(function (l) { return JSON.parse(l); });
+          }
+        } catch (e) {}
+        var keepIdx = state.index;
+        var atEnd = keepIdx >= state.timeline.length - 1;
+        ingest({ funnel: funnel, events: ev, annotations: state.annotations });
+        if (!atEnd && keepIdx < state.timeline.length) applyPoint(keepIdx);
+        return;
+      }
+    } catch (e) {}
+    try {
+      var s = document.createElement("script");
+      s.src = "data.js?_=" + Date.now();
+      s.onload = function () { if (window.FUNNEL) ingest(window.FUNNEL); };
+      document.body.appendChild(s);
+    } catch (e2) {}
+  }
+  setInterval(refresh, 60000);
+})();
   </script>
 </body>
 </html>
