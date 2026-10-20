@@ -1,6 +1,115 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-20-01",
+    "date": "2026-10-19",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "OpenAI 与 OpenCode 合作，让同时是 OpenAI API 客户的用户在攻击后恢复使用，被刷额度会退回；并开放 Daybreak Blue 防御向 cyber 许可配置申请，建议提前申请，别等出事再找。",
+    "keywords": [
+      "OpenCode",
+      "API",
+      "退款",
+      "Daybreak Blue",
+      "网络安全"
+    ],
+    "url": "https://x.com/thsottiaux/status/2112034063934742720",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-20-02",
+    "date": "2026-10-20",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Slides 新增实时协作（共享、共编、评论，可用 ChatGPT 或 dot 按反馈改），以及在幻灯片上直接改文字、图表、图片形状；可从对话或文件创建，支持站内演示或导出 PowerPoint / Google Slides。限 Pro、Business、Enterprise。",
+    "keywords": [
+      "ChatGPT Slides",
+      "协作",
+      "导出",
+      "Pro"
+    ],
+    "url": "https://x.com/ChatGPT/status/2112265233192657153",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-20-03",
+    "date": "2026-10-20",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Day 15 COOKED Ep.1：直播用 dot + GPT-Live-1 做拉面，并介绍 Codex Cloud（合盖任务继续）、Codex CLI（终端对话、看 agent、fork 到 worktree）及社区项目。Tibo 文案是 \"Day 15/ We're cooked\"，不是重置。",
+    "keywords": [
+      "Day 15",
+      "COOKED",
+      "Codex Cloud",
+      "Codex CLI",
+      "GPT-Live-1"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2112242739198959913",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-20-04",
+    "date": "2026-10-20",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 1.16 起，可在 iPhone 15 Pro 及更新机型把 Action Button 设成 Shortcut → Grok Bot → Start Voice Chat，按一下开语音。",
+    "keywords": [
+      "Grok Bot",
+      "Action Button",
+      "语音",
+      "iOS",
+      "1.16"
+    ],
+    "url": "https://x.com/bot/status/2112252507762368684",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-20-05",
+    "date": "2026-10-20",
+    "person": "merettm",
+    "handle": "merettm",
+    "summary": "Aleksander Madry 结束休整回归 OpenAI，与 @merettm 一起处理 AI 能力加速下的安全、安保与策略问题；Madry 称此前以为是离职，现认为安全必须成为中心优先级。",
+    "keywords": [
+      "Aleksander Madry",
+      "安全",
+      "策略",
+      "人事",
+      "回归"
+    ],
+    "url": "https://x.com/merettm/status/2112231743734579542",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-20-06",
+    "date": "2026-10-20",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "模型在 COBOL、Fortran、Visual Basic 等低资源语言上的构建与迁移能力加强，面向银行、政府、企业遗留系统；博客提到软件工程、SQLite、COBOL 迁移等新评测，并征求下一步语言与工作流需求。",
+    "keywords": [
+      "低资源语言",
+      "COBOL",
+      "Fortran",
+      "迁移",
+      "企业"
+    ],
+    "url": "https://x.com/OpenAI/status/2112310345863930168",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-20-07",
+    "date": "2026-10-20",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "Codex Ambassadors 申请再次开放，希望扩到更多城市和地区；面向已在教人用 Codex、愿意办 meetup 或分享经验的人。",
+    "keywords": [
+      "Codex Ambassadors",
+      "社区",
+      "meetup"
+    ],
+    "url": "https://x.com/romainhuet/status/2112308752544346523",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-19-05",
     "date": "2026-10-19",
     "person": "Tibo",
