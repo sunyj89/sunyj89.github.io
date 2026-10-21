@@ -1,6 +1,187 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-21-01",
+    "date": "2026-10-20",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 15：Tibo 发「Nevermind, we're still cooking... and reset. Enjoy.」，确认全员额度重置；纠正稍早「We're cooked」直播转推给人以为只做直播的印象。codex-resets.com 记为 regular，累计 64 次。",
+    "keywords": [
+      "Day 15",
+      "额度重置",
+      "已到账",
+      "Codex",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/thsottiaux/status/2112432076767289678",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-02",
+    "date": "2026-10-21",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "周末约 4 万账号出现「实际扣的额度」与所选套餐不一致；已纠偏并逐个联系，受影响的会补 credits。这是修复与补偿，不是新一轮全员重置。",
+    "keywords": [
+      "额度",
+      "扣费异常",
+      "补偿",
+      "credits"
+    ],
+    "url": "https://x.com/thsottiaux/status/2112592264686149749",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-03",
+    "date": "2026-10-21",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "Locked Chats 上线：敏感对话可移出普通历史并用 PIN / 生物识别解锁；锁定对话内新消息不写入普通 memory。向 Free 到 Edu 等各档推送。",
+    "keywords": [
+      "Locked Chats",
+      "隐私",
+      "PIN",
+      "memory"
+    ],
+    "url": "https://x.com/ChatGPT/status/2112597766333673624",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-04",
+    "date": "2026-10-21",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "API Prompt Caching 可选 12 小时窗口，适合整天复用指令/工具的持久 agent（如 dots）；可与默认 30 分钟混用，仍按 cached-input 低价计费。",
+    "keywords": [
+      "Prompt Caching",
+      "12h",
+      "API",
+      "dots"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-05",
+    "date": "2026-10-20",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "ChatGPT Enterprise 支持团队定时任务，可自动跑周期性工程汇报（如每周五汇总已上线/阻塞），队友可审结果并改下次范围。",
+    "keywords": [
+      "Enterprise",
+      "团队任务",
+      "Scheduled",
+      "Teams"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2112565702552940794",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-06",
+    "date": "2026-10-21",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 收购 Orchestra Bio，与 Rosalind 等生命科学工具结合，协调生物制药研发流程；Mark Chen 表示拓宽 AI 辅助药物发现。",
+    "keywords": [
+      "Orchestra Bio",
+      "收购",
+      "Rosalind",
+      "药物研发"
+    ],
+    "url": "https://x.com/OpenAI/status/2112607347688583586",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-07",
+    "date": "2026-10-21",
+    "person": "Sam Altman",
+    "handle": "sama",
+    "summary": "欢迎 Aleksander Madry 回归，称面对超级智能时安全与安保挑战巨大，感谢他接下这项工作。",
+    "keywords": [
+      "Sam Altman",
+      "Aleksander Madry",
+      "安全",
+      "回归"
+    ],
+    "url": "https://x.com/sama/status/2112652656602923366",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-08",
+    "date": "2026-10-21",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "插件审核上周近翻倍，但仍赶不上投稿；感谢耐心，并指向团队正在重做审核流程。",
+    "keywords": [
+      "插件",
+      "审核",
+      "积压",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/romainhuet/status/2112589080202801514",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-21-09",
+    "date": "2026-10-21",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "官方用 Grok Bot 盯客服队列并批量回相关工单；一次事故约 10 分钟清 204 张票，由一名工程师批准确认。",
+    "keywords": [
+      "Grok Bot",
+      "客服",
+      "工单",
+      "批处理"
+    ],
+    "url": "https://x.com/bot/status/2112645531076096330",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-21-10",
+    "date": "2026-10-20",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布 Grok Bot「What's new」速览视频，覆盖会话卡片、速度、草稿、邮箱别名、X DM、@bot、连接器、语音、通知、Android Assistant、例程等近期能力。",
+    "keywords": [
+      "Grok Bot",
+      "What's new",
+      "视频",
+      "功能一览"
+    ],
+    "url": "https://x.com/mattyp/status/2112550158885917122",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-21-11",
+    "date": "2026-10-21",
+    "person": "jediahkatz",
+    "handle": "jediahkatz",
+    "summary": "在 AI Engineer 演讲中谈 coding agent harness 飞轮重启：软件工厂、Cursor projects、@bot 等；视频已上 YouTube。",
+    "keywords": [
+      "harness",
+      "Grok Bot",
+      "Cursor",
+      "AI Engineer"
+    ],
+    "url": "https://x.com/jediahkatz/status/2112669091219542269",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-21-12",
+    "date": "2026-10-20",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "客户故事：Terminal X 用 GPT-6.1 做投资评估，与资深投资人判断一致率约 88.6%；Eval Agent 按 54 条标准打分。",
+    "keywords": [
+      "Terminal X",
+      "GPT-6.1",
+      "Eval Agent",
+      "投资"
+    ],
+    "url": "https://openai.com/index/terminal-x",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-20-01",
     "date": "2026-10-19",
     "person": "Tibo",
