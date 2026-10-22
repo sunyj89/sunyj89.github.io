@@ -1,6 +1,192 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-22-01",
+    "date": "2026-10-21",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 16：API 可缓存 12 小时；Codex 与 Work 登录用户的缓存永久保留，隔几小时回到老对话也保证命中缓存。不是额度重置，但能实际省额度。",
+    "keywords": [
+      "Day 16",
+      "缓存",
+      "Codex",
+      "Work"
+    ],
+    "url": "https://x.com/thsottiaux/status/2112712984644784534",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-02",
+    "date": "2026-10-22",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 上线 Pages，可生成报告、备忘录和仪表盘，能一起编辑或让 Bot 持续更新；今天起在最新版手机和桌面客户端推送。",
+    "keywords": [
+      "Grok Bot",
+      "Pages",
+      "报告",
+      "仪表盘"
+    ],
+    "url": "https://x.com/bot/status/2112992872857252082",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-22-03",
+    "date": "2026-10-22",
+    "person": "romanugarte_",
+    "handle": "romanugarte_",
+    "summary": "Pages 最好的地方是 Bot 会持续维护并扩充页面，像一个能随时访问和分享的知识库。",
+    "keywords": [
+      "Grok Bot",
+      "Pages",
+      "知识库"
+    ],
+    "url": "https://x.com/romanugarte_/status/2112998685927756007",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-22-04",
+    "date": "2026-10-22",
+    "person": "jediahkatz",
+    "handle": "jediahkatz",
+    "summary": "Grok Bot 的 Pages 还能发布静态网站，目前有限制；附了一个用 Pages 做的性格测验示例。",
+    "keywords": [
+      "Grok Bot",
+      "Pages",
+      "静态网站"
+    ],
+    "url": "https://x.com/jediahkatz/status/2113027632430227605",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-22-05",
+    "date": "2026-10-21",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 模型在 Patch the Planet 计划中协助发现 PHP 严重漏洞，经两个月协调已可升级修复；另提供 Codex skill 帮网站自查。",
+    "keywords": [
+      "PHP",
+      "php2shell",
+      "安全漏洞",
+      "Patch the Planet"
+    ],
+    "url": "https://x.com/OpenAI/status/2112907856018309586",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-06",
+    "date": "2026-10-22",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 前沿模型和 Codex 智能体工作流将进入 Google Cloud 的 Model Garden，企业可在 Google Cloud 上直接使用。",
+    "keywords": [
+      "Google Cloud",
+      "Model Garden",
+      "Codex",
+      "企业"
+    ],
+    "url": "https://x.com/OpenAI/status/2112988118471295323",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-07",
+    "date": "2026-10-21",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "数千个 GPT-Rosalind 智能体并行分析数百万小鼠脑细胞数据，32 分钟提出神经退行性疾病的可验证新假设；合作将扩大到找新药靶点。",
+    "keywords": [
+      "GPT-Rosalind",
+      "药物发现",
+      "生命科学"
+    ],
+    "url": "https://x.com/OpenAI/status/2112899854569762936",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-08",
+    "date": "2026-10-21",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "OpenAI 过去两个月牵头处理 php2shell，他称其为近年最严重的开源漏洞之一。",
+    "keywords": [
+      "Greg Brockman",
+      "php2shell",
+      "安全"
+    ],
+    "url": "https://x.com/gdb/status/2112921529650688312",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-09",
+    "date": "2026-10-22",
+    "person": "charliermarsh",
+    "handle": "charliermarsh",
+    "summary": "Codex for OSS 资助全部升级到 Pro 200，本轮仍为 1 万个名额，已获资助者自动升级，申请仍开放。（@OpenAIDevs 转推）",
+    "keywords": [
+      "Codex for OSS",
+      "开源",
+      "Pro"
+    ],
+    "url": "https://x.com/charliermarsh/status/2112961511895289886",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-10",
+    "date": "2026-10-22",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "官方讲解 ChatGPT 广告系统：广告在回答下方标注赞助，回答不等广告；同日官网宣布广告扩展到 26 个新国家、已有 10 万多广告主。",
+    "keywords": [
+      "ChatGPT 广告",
+      "工程",
+      "扩张"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2112962753682198969",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-11",
+    "date": "2026-10-21",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "教程：把 iPhone 操作按钮设成 Grok Bot 的 Start Voice Chat 快捷指令，一按就能语音聊天。",
+    "keywords": [
+      "Grok Bot",
+      "iPhone",
+      "Action Button",
+      "语音"
+    ],
+    "url": "https://x.com/mattyp/status/2112891221576389063",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-22-12",
+    "date": "2026-10-22",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "OpenAI 首席经济学家回应「年轻人讨厌 AI」：对就业和创造力的担忧是真实的，人们应决定 AI 在生活中的边界。",
+    "keywords": [
+      "首席经济学家",
+      "公众态度",
+      "就业"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2112945943389855902",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-22-13",
+    "date": "2026-10-22",
+    "person": "SpaceXSI",
+    "handle": "SpaceXSI",
+    "summary": "Grok 4.7 已接入 AI 员工产品 Viktor。",
+    "keywords": [
+      "Grok 4.7",
+      "Viktor"
+    ],
+    "url": "https://x.com/SpaceXSI/status/2112959750786953386",
+    "track": "cursor"
+  },
+  {
     "id": "2026-10-21-01",
     "date": "2026-10-20",
     "person": "Tibo",
