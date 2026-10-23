@@ -1,6 +1,168 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-23-01",
+    "date": "2026-10-22",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 17 宣布全员重置；跟帖称太平洋时间次日 10am 前到账（约北京时间 10月23日 01:00）。截至早班窗口结束未见「Done」确认帖，第三方 tracker 仍为 scheduled。同帖提醒尽快申请 Daybreak Blue。",
+    "keywords": [
+      "Day 17",
+      "额度重置",
+      "28天冲刺",
+      "Daybreak Blue",
+      "待确认到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2113162277688070445",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-02",
+    "date": "2026-10-23",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Decisions API 从公测转为一般可用；新增 GPT-Live、提示缓存、原生 JSON、单题多图、单次最多 400 问等能力，适合近实时轻决策。",
+    "keywords": [
+      "Decisions API",
+      "GA",
+      "开发者平台"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-03",
+    "date": "2026-10-23",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 可接入 1Password：用户批准要分享的登录项后，Bot 可代为登录；未来几天逐步推送。",
+    "keywords": [
+      "Grok Bot",
+      "1Password",
+      "登录集成"
+    ],
+    "url": "https://x.com/bot/status/2113332983226831339",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-23-04",
+    "date": "2026-10-23",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 现可调用手机上的日历、提醒、通讯录等应用；iOS 与 Android 正在推送。",
+    "keywords": [
+      "Grok Bot",
+      "日历",
+      "提醒",
+      "通讯录",
+      "移动端"
+    ],
+    "url": "https://x.com/bot/status/2113393684209176718",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-23-05",
+    "date": "2026-10-22",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "今夏邀请 METR 与 Redwood Research 驻场三周，评估内部智能体监控系统；结论用于加固防护并影响后续第三方评估合作。",
+    "keywords": [
+      "METR",
+      "Redwood",
+      "安全评估",
+      "智能体监控"
+    ],
+    "url": "https://x.com/OpenAI/status/2113298833392496746",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-06",
+    "date": "2026-10-23",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "与 Uber 合作，把 ChatGPT Work 推到全员，把智能体能力带到整个公司。",
+    "keywords": [
+      "ChatGPT Work",
+      "Uber",
+      "企业采用"
+    ],
+    "url": "https://x.com/gdb/status/2113325885491437764",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-07",
+    "date": "2026-10-23",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "通过 Daybreak for Frontline Defenders 与 ICBA 合作，帮助社区银行获得 AI 网络安全防护与培训。",
+    "keywords": [
+      "Daybreak",
+      "ICBA",
+      "社区银行",
+      "网络安全"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2113330753832726617",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-08",
+    "date": "2026-10-22",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "感谢 Daybreak 支持下的安全研究者；网友列出 php2shell、Chrome full chain 等多项成果多靠 Daybreak 开放模型权限。",
+    "keywords": [
+      "Daybreak",
+      "安全研究",
+      "php2shell"
+    ],
+    "url": "https://x.com/romainhuet/status/2113107914269626825",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-09",
+    "date": "2026-10-23",
+    "person": "Boris Power",
+    "handle": "BorisMPower",
+    "summary": "转发并认可 OpenAI 关于 Forward Deployed Engineering 的说明：把客户现场工作沉淀进产品和模型。",
+    "keywords": [
+      "FDE",
+      "Forward Deployed Engineering",
+      "交付"
+    ],
+    "url": "https://x.com/BorisMPower/status/2113304626397426032",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-10",
+    "date": "2026-10-22",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "转发「技术瓶颈」论文，强调除 AI 暴露度外，还应看 AI 暂时做不到的环节在哪些岗位会更值钱。",
+    "keywords": [
+      "AI 暴露度",
+      "就业",
+      "瓶颈",
+      "经济学"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2113288590998347912",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-23-11",
+    "date": "2026-10-23",
+    "person": "SpaceXSI",
+    "handle": "SpaceXSI",
+    "summary": "表态支持 NVIDIA OpenShell 参考架构，用于给 AI 智能体划边界并在越界时停下。",
+    "keywords": [
+      "OpenShell",
+      "NVIDIA",
+      "智能体安全",
+      "SpaceXSI"
+    ],
+    "url": "https://x.com/SpaceXSI/status/2113365443931148624",
+    "track": "cursor"
+  },
+  {
     "id": "2026-10-22-01",
     "date": "2026-10-21",
     "person": "Tibo",
