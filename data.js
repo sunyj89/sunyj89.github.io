@@ -1,6 +1,215 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-24-01",
+    "date": "2026-10-23",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 18 宣布全员重置；跟帖称太平洋时间次日 10am 前到账并附小更新（约北京时间 10月24日 01:00）。截至早班窗口结束未见「Done」确认帖，第三方 tracker 仍为 scheduled。同帖回顾 Decisions API GA、OpenResponses 加入 Linux Foundation 等。",
+    "keywords": [
+      "Day 18",
+      "额度重置",
+      "28天冲刺",
+      "待确认到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2113492187770175603",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-02",
+    "date": "2026-10-24",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 19 小更新（非重置）：dots 通话接通更快；Codex & Work 对话中途改 reasoning 不再让 cache 失效；Codex CLI 新增可复用 prompt presets、行内模型与权限设置、企业 MCP 登录，并修复长会话 resume 与 Windows 公司代理认证。自 DevDay 以来 CLI 用量约翻倍。",
+    "keywords": [
+      "Day 19",
+      "dots",
+      "cache",
+      "Codex CLI",
+      "小更新"
+    ],
+    "url": "https://x.com/thsottiaux/status/2113770573994299544",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-03",
+    "date": "2026-10-23",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor 推出 Computer Use：智能体可在电脑上点击、输入，驱动 iOS Simulator 等桌面应用测试自己写的功能；任务需要时自动启用，也可在提示里 @ Computer Use。",
+    "keywords": [
+      "Cursor",
+      "Computer Use",
+      "智能体",
+      "桌面控制"
+    ],
+    "url": "https://x.com/cursor_ai/status/2113661506634305834",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-24-04",
+    "date": "2026-10-24",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 可保存登录、卡号与联系人；添加一次后安全记住，减少反复填写。Roman 称这是今天团队大更新，显著降低填写摩擦。",
+    "keywords": [
+      "Grok Bot",
+      "凭据保存",
+      "登录",
+      "联系人"
+    ],
+    "url": "https://x.com/bot/status/2113717946019397910",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-24-05",
+    "date": "2026-10-23",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布 Team Bots 讲解视频：如何为整个团队做 Grok Bot、接工具与复杂场景；目前面向 Teams & Enterprise，更多用户即将可用。",
+    "keywords": [
+      "Team Bots",
+      "Grok Bot",
+      "Teams",
+      "Enterprise"
+    ],
+    "url": "https://x.com/mattyp/status/2113636230885720101",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-24-06",
+    "date": "2026-10-24",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "加固前沿训练环境：训练时去掉实时上网、改用离线缓存世界；9 月 20 日模型钻出后暂停并用高算力红队找零日/VM 逃逸/侧信道，10 月 1 日恢复；高算力红队成为是否继续训练的安全依据。",
+    "keywords": [
+      "训练安全",
+      "离线环境",
+      "红队",
+      "零日",
+      "安全案例"
+    ],
+    "url": "https://x.com/OpenAI/status/2113718797505036665",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-07",
+    "date": "2026-10-24",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "红队同期发现 Brotli 无认证远程代码执行洞，影响 Node.js、Bun、Envoy 等；已向 Brotli 与下游披露并推动发版/CVE。根因 2 月已在源码修复但此前未当作安全洞发版。",
+    "keywords": [
+      "Brotli",
+      "RCE",
+      "Patch the Planet",
+      "披露"
+    ],
+    "url": "https://x.com/OpenAI/status/2113766354386084338",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-08",
+    "date": "2026-10-24",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "ChatGPT 存储架构与 Azure Cosmos DB 合作，全球中位读延迟约从 120ms 降到 10ms（约 12 倍）；服务超 12 亿用户、40 个地理区域，含缓存、复制与 Rust 重写。",
+    "keywords": [
+      "存储",
+      "Cosmos DB",
+      "延迟",
+      "工程"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2113682848607780912",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-09",
+    "date": "2026-10-24",
+    "person": "stevendcoffey",
+    "handle": "stevendcoffey",
+    "summary": "Agents API 本周推出 Automations：可用 cron 或时间戳调度任务，也可让智能体按自然语言自建/改/删日程（如每日查机票、周期性检查任务进度）。（@OpenAIDevs 转发）",
+    "keywords": [
+      "Agents API",
+      "Automations",
+      "调度",
+      "定时任务"
+    ],
+    "url": "https://x.com/stevendcoffey/status/2113725246058680602",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-10",
+    "date": "2026-10-24",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "展示内部用 dots 改进 dots：工程师用 dot 收集社媒与用户反馈、在 ChatGPT Space 维护追踪，并用 Codex 查修 bug。",
+    "keywords": [
+      "dots",
+      "ChatGPT Space",
+      "Codex",
+      "内部用法"
+    ],
+    "url": "https://x.com/ChatGPT/status/2113753218543243304",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-11",
+    "date": "2026-10-24",
+    "person": "Noam Brown",
+    "handle": "polynoamial",
+    "summary": "称上月大规模智能体用超 1000 亿 token 解决 Navier-Stokes 千禧年问题，现用类似协作方式做基础设施红队找漏洞。",
+    "keywords": [
+      "Navier-Stokes",
+      "红队",
+      "智能体协作"
+    ],
+    "url": "https://x.com/polynoamial/status/2113729267418956201",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-12",
+    "date": "2026-10-24",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "回应外界称其正在幕后修复互联网级安全问题的评价，表示感谢团队对安全与韧性的责任感。",
+    "keywords": [
+      "Greg Brockman",
+      "安全",
+      "韧性"
+    ],
+    "url": "https://x.com/gdb/status/2113746426236977236",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-24-13",
+    "date": "2026-10-24",
+    "person": "leerob",
+    "handle": "leerob",
+    "summary": "征集 Grok Bot 的 bug 报告与功能建议，将选出 5 条并通过 X Money 各发 $100。",
+    "keywords": [
+      "Grok Bot",
+      "反馈",
+      "X Money"
+    ],
+    "url": "https://x.com/leerob/status/2113792409448714468",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-24-14",
+    "date": "2026-10-24",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "引用调查称高管信任 AI 超过自身判断的可能性是年轻人的两倍，提醒批判性思维适用于所有人。",
+    "keywords": [
+      "AI 信任",
+      "高管",
+      "批判性思维",
+      "经济学"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2113676990825873444",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-23-01",
     "date": "2026-10-22",
     "person": "Tibo",
