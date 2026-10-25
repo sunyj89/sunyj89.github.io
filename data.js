@@ -1,6 +1,106 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-25-01",
+    "date": "2026-10-24",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "Codex Mobile 近期更新加快任务列表与详情加载，并加入 caching。",
+    "keywords": [
+      "Codex Mobile",
+      "性能",
+      "缓存"
+    ],
+    "url": "https://x.com/Dimillian/status/2113876005626446177",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-25-02",
+    "date": "2026-10-24",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布 What’s New Bot：每日检查 Grok Bot changelog 与最新 What’s New 视频，并把更新直接送到聊天。",
+    "keywords": [
+      "Grok Bot",
+      "What’s New",
+      "changelog",
+      "Bot"
+    ],
+    "url": "https://x.com/mattyp/status/2113978076937994305",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-25-03",
+    "date": "2026-10-25",
+    "person": "leerob",
+    "handle": "leerob",
+    "summary": "公布 Grok Bot 反馈征集 5 名获奖者（各 $100 X Money），并透露后续：用量洞察与改进建议、vault 去重、移动终端 UX、群聊 bot UX、notes/health 连接器；另称已修表格滚动与 iOS 已保存登录等 bug。",
+    "keywords": [
+      "Grok Bot",
+      "反馈",
+      "路线图",
+      "vault",
+      "连接器"
+    ],
+    "url": "https://x.com/leerob/status/2114144779613171916",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-25-04",
+    "date": "2026-10-25",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "公开招募有大规模扩容经验的人，帮助把 dots 扩到约 10 亿用户量级。",
+    "keywords": [
+      "dots",
+      "招聘",
+      "扩容"
+    ],
+    "url": "https://x.com/thsottiaux/status/2114074885622501706",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-25-05",
+    "date": "2026-10-24",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "提醒「有工具」与「成为工具」差别很细，容易在无意中把自己做成工具；呼吁 Don’t be a tool。",
+    "keywords": [
+      "Tibo",
+      "工具",
+      "观点"
+    ],
+    "url": "https://x.com/thsottiaux/status/2113838156193894447",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-25-06",
+    "date": "2026-10-24",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "称 ChatGPT Sites 提供详细站点分析，并在 Dark Veil 上使用了 Sites 多项能力（含数据库）。",
+    "keywords": [
+      "ChatGPT Sites",
+      "分析",
+      "Dark Veil"
+    ],
+    "url": "https://x.com/Dimillian/status/2114003690767937585",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-25-07",
+    "date": "2026-10-25",
+    "person": "jediahkatz",
+    "handle": "jediahkatz",
+    "summary": "短句：“Things are good if you make them good. So why wouldn't you make them good?”",
+    "keywords": [
+      "jediahkatz",
+      "观点"
+    ],
+    "url": "https://x.com/jediahkatz/status/2114085026417791277",
+    "track": "cursor"
+  },
+  {
     "id": "2026-10-24-01",
     "date": "2026-10-23",
     "person": "Tibo",
