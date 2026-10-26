@@ -1,6 +1,53 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-26-01",
+    "date": "2026-10-25",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 20 宣布「Rest and reset」；同线程写 By midnight PST，约北京时间 10月25日 16:00 前到账。",
+    "keywords": [
+      "额度重置",
+      "Day 20",
+      "28天冲刺",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2114200152701575656",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-26-02",
+    "date": "2026-10-25",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "确认重置已全员生效：「It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.」codex-resets.com 记为 webhook 确认，累计 67。",
+    "keywords": [
+      "额度重置",
+      "到账确认",
+      "Day 20",
+      "propagated",
+      "已到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2114237083652882932",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-26-03",
+    "date": "2026-10-26",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "转引外界对 OpenAI 流体/PDE 论文的评价：技术上难以置信，或许超出人类能想出的构造，但仍在人类可理解范围内。",
+    "keywords": [
+      "OpenAI",
+      "PDE",
+      "流体",
+      "研究论文",
+      "Greg Brockman"
+    ],
+    "url": "https://x.com/gdb/status/2114483026608755082",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-25-01",
     "date": "2026-10-24",
     "person": "Thomas Ricouard",
