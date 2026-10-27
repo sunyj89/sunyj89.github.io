@@ -1,6 +1,157 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-27-01",
+    "date": "2026-10-26",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "28 天冲刺 Day 21 宣布「Wonder what happens the remaining seven days. But today is a reset.」未写 ETA；截至本窗未见 propagated 到账确认。codex-resets 记为 observed，累计 68。",
+    "keywords": [
+      "额度重置",
+      "Day 21",
+      "28天冲刺",
+      "Codex",
+      "observed",
+      "待确认到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2114588174249071102",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-02",
+    "date": "2026-10-27",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 GPT-6.1 Terra：更快更省的 computer use，性能可对标 Astra 约 1/10 单价；推送给 Plus/Pro/Enterprise/Edu 的 ChatGPT Work 与 Codex，API 为 gpt-6.1-terra。",
+    "keywords": [
+      "GPT-6.1 Terra",
+      "computer use",
+      "Codex",
+      "ChatGPT Work",
+      "API"
+    ],
+    "url": "https://x.com/OpenAI/status/2114780711664398349",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-03",
+    "date": "2026-10-27",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 22 小船「Terra is back!」：写作与请求理解更好、computer use 强，相对 6.1 Sol 约 2× usage；不是额度重置日。",
+    "keywords": [
+      "Day 22",
+      "Terra",
+      "额度效率",
+      "28天冲刺"
+    ],
+    "url": "https://x.com/thsottiaux/status/2114800277677092936",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-04",
+    "date": "2026-10-27",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor Agent SDK 正式可用：Markdown 提示 + TypeScript 工具，可托管或自托管，带内置 eval。",
+    "keywords": [
+      "Cursor",
+      "Agent SDK",
+      "TypeScript",
+      "evals"
+    ],
+    "url": "https://x.com/cursor_ai/status/2114793714531102901",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-27-05",
+    "date": "2026-10-27",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "DeepSeek V4.1 Flash 进入 Cursor；称各 effort 档落在 CursorBench 成本前沿（约 $0.60–$0.98/task），在 Settings → Models 开启。",
+    "keywords": [
+      "DeepSeek",
+      "V4.1 Flash",
+      "Cursor",
+      "模型"
+    ],
+    "url": "https://x.com/cursor_ai/status/2114839997568405608",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-27-06",
+    "date": "2026-10-27",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "CapCut 插件即将进入 ChatGPT，基于 plugin extensions，可在对话里起视频稿再进 CapCut 精修。",
+    "keywords": [
+      "CapCut",
+      "ChatGPT插件",
+      "plugin extensions"
+    ],
+    "url": "https://x.com/mxstbr/status/2114762846156607825",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-07",
+    "date": "2026-10-27",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "OpenAI Signals 公开近百国、165 类工作活动的 ChatGPT 用法数据，供研究者对比写作、编程、教学等差异。",
+    "keywords": [
+      "OpenAI Signals",
+      "工作用法",
+      "数据",
+      "研究"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2114777660182425630",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-08",
+    "date": "2026-10-27",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "评价 Terra computer use 已跨过质变门槛，感觉比自己徒手操作还快。",
+    "keywords": [
+      "Greg Brockman",
+      "Terra",
+      "computer use"
+    ],
+    "url": "https://x.com/gdb/status/2114814747254432243",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-09",
+    "date": "2026-10-27",
+    "person": "Sam Altman",
+    "handle": "sama",
+    "summary": "宣布 6.1 Terra 已到，尤其兴奋于 computer use 新时代。",
+    "keywords": [
+      "Sam Altman",
+      "Terra",
+      "computer use"
+    ],
+    "url": "https://x.com/sama/status/2114818620782248024",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-27-10",
+    "date": "2026-10-27",
+    "person": "btaylor",
+    "handle": "btaylor",
+    "summary": "对模型相关「指数时间假设为假」的结果感到震惊，并曾期望在 P/NP 上得到相反结论；呼应 OpenAI 与学界协作发布的科研结果。",
+    "keywords": [
+      "ETH",
+      "复杂度",
+      "科学发现",
+      "Bret Taylor",
+      "OpenAI"
+    ],
+    "url": "https://x.com/btaylor/status/2114860863324848131",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-26-01",
     "date": "2026-10-25",
     "person": "Tibo",
