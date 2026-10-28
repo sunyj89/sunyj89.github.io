@@ -1,6 +1,161 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-28-01",
+    "date": "2026-10-28",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT 上线 iCloud Mail 与 Calendar 插件：可找邮件、扫收件箱、查看/更新日历；全套餐，覆盖网页、桌面与 iOS。",
+    "keywords": [
+      "iCloud",
+      "邮件",
+      "日历",
+      "ChatGPT插件",
+      "全套餐"
+    ],
+    "url": "https://x.com/ChatGPT/status/2115139248458191070",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-02",
+    "date": "2026-10-27",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "扩大与 Oracle 合作，把 Oracle 应用与数据带进 ChatGPT（Oracle AI Workspace）；并公布 AI Security Mesh、AI SMB Bundle、App Composer；美区可通过 Oracle Marketplace 采购 API/Codex/ChatGPT Work。",
+    "keywords": [
+      "Oracle",
+      "ChatGPT",
+      "企业",
+      "Codex",
+      "Marketplace"
+    ],
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-03",
+    "date": "2026-10-28",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "销售运营团队用 Shared Bots（Account Intel / Quote / Deal）加速成交；专家把流程写入 Bot 并共享，团队共用且持续学习。",
+    "keywords": [
+      "Grok Bot",
+      "Shared Bots",
+      "销售",
+      "CRM",
+      "SpaceXSI"
+    ],
+    "url": "https://x.com/bot/status/2115130760009273501",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-28-04",
+    "date": "2026-10-28",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor Design Mode 新增 Annotate：可对页面元素画注、改元素、按不同屏宽审设计；浏览器 Cmd+Shift+D。",
+    "keywords": [
+      "Cursor",
+      "Design Mode",
+      "Annotate",
+      "视觉提示"
+    ],
+    "url": "https://x.com/cursor_ai/status/2115159585548021814",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-28-05",
+    "date": "2026-10-27",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "评论「ETH is false」预印本，称 AI 在挑战计算极限相关基本假设。",
+    "keywords": [
+      "ETH",
+      "复杂度",
+      "openai/math",
+      "研究"
+    ],
+    "url": "https://x.com/romainhuet/status/2115056274601816183",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-06",
+    "date": "2026-10-28",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "转发 KITP Yang-Mills 工作组声明，解读与 QCD / Standard Model 完备性及 Quantum Yang-Mills 存在相关的 AI 结果。",
+    "keywords": [
+      "Yang-Mills",
+      "QCD",
+      "KITP",
+      "科学发现",
+      "OpenAI"
+    ],
+    "url": "https://x.com/OpenAI/status/2115237121300770818",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-07",
+    "date": "2026-10-27",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "OpenAI Signals 显示工作用法拓宽（74 国前十类活动占比 56.0%→51.1%），且欧盟偏法律监管、美国偏商务运营。",
+    "keywords": [
+      "OpenAI Signals",
+      "工作用法",
+      "国别差异"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2115075445649506462",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-08",
+    "date": "2026-10-28",
+    "person": "Noam Brown",
+    "handle": "polynoamial",
+    "summary": "称编码智能体让 MIT 扑克 AI 课能在约一小时内做出 bot；将出席相关决赛（关联 Sequoia/Citi/OpenAI 的 No Limit 锦标赛）。",
+    "keywords": [
+      "Noam Brown",
+      "编码智能体",
+      "扑克",
+      "MIT",
+      "锦标赛"
+    ],
+    "url": "https://x.com/polynoamial/status/2115125429619343609",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-28-09",
+    "date": "2026-10-28",
+    "person": "romanugarte_",
+    "handle": "romanugarte_",
+    "summary": "呼应 @bot：GTM 团队采用「专家 dump 流程 → 共享 Bot → 持续学习」模式，效果好于以往内部自动化。",
+    "keywords": [
+      "Grok Bot",
+      "GTM",
+      "Shared Bots",
+      "Roman Ugarte"
+    ],
+    "url": "https://x.com/romanugarte_/status/2115133963857690713",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-28-10",
+    "date": "2026-10-27",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "客户故事：Retell 用 OpenAI 模型支撑约每月 1 亿通语音通话；GPT-6 Astra 登顶其 voice agent 基准，Codex 助其人均 ARR 约 $1.6M。",
+    "keywords": [
+      "Retell",
+      "语音",
+      "Astra",
+      "Codex",
+      "客户故事"
+    ],
+    "url": "https://openai.com/index/retell-ai",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-27-01",
     "date": "2026-10-26",
     "person": "Tibo",
