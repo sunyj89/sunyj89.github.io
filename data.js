@@ -1,6 +1,189 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-29-01",
+    "date": "2026-10-28",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 23 宣布额度重置（「just kidding, today is a reset」）；原文 ETA「Lands by midnight PST」约合北京时间 10月28日 16:00；同日 14:29 到账「And it's done」。",
+    "keywords": [
+      "额度重置",
+      "Day 23",
+      "Codex",
+      "ChatGPT",
+      "已到账"
+    ],
+    "url": "https://x.com/thsottiaux/status/2115273064481218829",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-02",
+    "date": "2026-10-29",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "dots 支持短信（美国 Pro 预览）：可用文字/照片/语音留言派任务，dot 主动回短信；经 iMessage 或 RCS，仅你与你的 dot 互发。",
+    "keywords": [
+      "dots",
+      "短信",
+      "iMessage",
+      "RCS",
+      "Pro",
+      "预览"
+    ],
+    "url": "https://x.com/ChatGPT/status/2115496387613786374",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-03",
+    "date": "2026-10-29",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "符合条件的 ChatGPT Pro/Business 订阅者可每月领取最高 $500 API 额度；Pro 按档 $100/$200/$500，Business 按席位汇总、工作区上限 $500。",
+    "keywords": [
+      "API额度",
+      "Pro",
+      "Business",
+      "开发者",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-04",
+    "date": "2026-10-29",
+    "person": "grok",
+    "handle": "grok",
+    "summary": "Grok API 文本请求可加 guidelines，按指引对特定内容类别做生成时审核；对全体 API 客户开放。",
+    "keywords": [
+      "Grok API",
+      "guidelines",
+      "审核",
+      "xAI"
+    ],
+    "url": "https://x.com/grok/status/2115584612122718296",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-29-05",
+    "date": "2026-10-28",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "扩大与 ServiceNow 合作：模型/智能体进入 ServiceNow 工作流，ChatGPT 侧有 ServiceNow MCP 插件；计划把 ChatGPT Work/Codex 推给全体 ServiceNow 员工，部分 Codex/安全/语音能力 2027 年推出。",
+    "keywords": [
+      "ServiceNow",
+      "企业",
+      "MCP",
+      "Codex",
+      "ChatGPT Work"
+    ],
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-06",
+    "date": "2026-10-28",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "dots 今日起在欧盟对 Business/Enterprise 计划可用，消费版很快跟上（巴黎 DevDay Exchange 现场确认）。",
+    "keywords": [
+      "dots",
+      "欧盟",
+      "Business",
+      "Enterprise"
+    ],
+    "url": "https://x.com/Dimillian/status/2115450637521666055",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-07",
+    "date": "2026-10-28",
+    "person": "Boris Power",
+    "handle": "BorisMPower",
+    "summary": "称 Artificial Analysis V5 指数显示 OpenAI 在多数价性能点领先，并点名 6.1 Terra 与 Sol 性价比高。",
+    "keywords": [
+      "Artificial Analysis",
+      "价性能",
+      "Terra",
+      "Sol"
+    ],
+    "url": "https://x.com/BorisMPower/status/2115277119630737643",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-08",
+    "date": "2026-10-28",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "Intelligence Age 文章《The future of the firm》，讨论 AI 如何进入组织架构（beneath / beside / between）。",
+    "keywords": [
+      "组织",
+      "Intelligence Age",
+      "企业"
+    ],
+    "url": "https://openai.com/index/the-future-of-the-firm",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-09",
+    "date": "2026-10-29",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "澄清 Chat 与 Work 打通尚未放量；计划今年内把两边能力合在一起，但会谨慎推进。",
+    "keywords": [
+      "Chat",
+      "Work",
+      "统一",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2115588390414581916",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-10",
+    "date": "2026-10-29",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "巴黎 DevDay Exchange Q&A 被问订阅是否含 API 额度，舞台上提前剧透了当天上线的领取政策。",
+    "keywords": [
+      "DevDay",
+      "Paris",
+      "API额度",
+      "Romain"
+    ],
+    "url": "https://x.com/romainhuet/status/2115592419454648723",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-11",
+    "date": "2026-10-29",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "进目录后的插件更新审核已明显加快，MCP 更新会自动过；慢的主要是首次提交。",
+    "keywords": [
+      "ChatGPT插件",
+      "审核",
+      "MCP"
+    ],
+    "url": "https://x.com/mxstbr/status/2115548678555570299",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-29-12",
+    "date": "2026-10-28",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "客户故事：Legora 用 OpenAI 模型、ChatGPT 与 Codex 加速法律工作流与合同分析。",
+    "keywords": [
+      "Legora",
+      "法律",
+      "Codex",
+      "客户故事"
+    ],
+    "url": "https://openai.com/index/legora",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-28-01",
     "date": "2026-10-28",
     "person": "ChatGPT",
