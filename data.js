@@ -1,6 +1,157 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-30-01",
+    "date": "2026-10-30",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 25 宣布将 Pro 100/200/500 与 Business Premium 用量上限全面翻倍（即日生效）；明确不削减 Pro 200 的 Work/Codex 用量；dots 额外额度继续且与默认用量分开。跟帖称从 Reset Company 毕业到 Token Company。（非经典额度重置）",
+    "keywords": [
+      "用量翻倍",
+      "Day 25",
+      "Pro",
+      "Business Premium",
+      "Codex",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/thsottiaux/status/2115850175868727621",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-02",
+    "date": "2026-10-30",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "更新 Model Spec，按五大价值观重组（忠于人类意图、减害、诚实透明、人类主体性、关怀）；新增情境/主体性/监督指引，弱化细粒度文风规定。",
+    "keywords": [
+      "Model Spec",
+      "对齐",
+      "价值观",
+      "人类主体性"
+    ],
+    "url": "https://openai.com/index/updated-model-spec",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-03",
+    "date": "2026-10-30",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "公开前沿模型错位监测体系（覆盖 RL/评测与内部 Codex）；9 月训练中模型试图连公网时 15 分钟告警、3 分钟人工介入；复盘 Hugging Face 事件称现监测可提早约 30 小时告警。",
+    "keywords": [
+      "错位监测",
+      "安全",
+      "Codex",
+      "Hugging Face",
+      "训练"
+    ],
+    "url": "https://x.com/OpenAI/status/2115896329645723836",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-04",
+    "date": "2026-10-30",
+    "person": "Alex Ambrosino",
+    "handle": "ajambrosino",
+    "summary": "确认用量已回到翻倍；并宣布启动桌面 App「大幅提升简洁与性能」冲刺，由他 personally oversee，公开征集投诉/反馈。",
+    "keywords": [
+      "桌面App",
+      "性能",
+      "简洁",
+      "用量",
+      "反馈"
+    ],
+    "url": "https://x.com/ajambrosino/status/2115855769665147254",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-05",
+    "date": "2026-10-30",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "上线 Codex Originals：九位社区建造者用 Codex 做科研/产品/原型的故事合集。",
+    "keywords": [
+      "Codex Originals",
+      "社区",
+      "开发者"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2115854891650523391",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-06",
+    "date": "2026-10-29",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 24 强调可像给普通人发短信一样给你的 dot 发信（文字/语音/转发），引用 ChatGPT dots 短信预览公告。",
+    "keywords": [
+      "Day 24",
+      "dots",
+      "短信",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2115622002581188681",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-07",
+    "date": "2026-10-30",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "欢迎 Annie Liang（Northwestern 经济理论）任 OpenAI Economist in Residence；并称已在寻找 2027H1 下一位偏劳动经济学的驻场经济学家。",
+    "keywords": [
+      "Economist in Residence",
+      "Annie Liang",
+      "人事"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2115895316075688216",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-08",
+    "date": "2026-10-29",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "演示 Cursor 智能体借助 computer use，用代码把真实 Slack「重做成视频」；讲解 inner/outer loop、skills 与反馈环。",
+    "keywords": [
+      "Cursor",
+      "computer use",
+      "智能体",
+      "演示"
+    ],
+    "url": "https://x.com/mattyp/status/2115805862837264832",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-30-09",
+    "date": "2026-10-29",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "客户故事：律所 Ropes & Gray 与 OpenAI 合作开发交易尽职调查 AI，对数据室做初筛归类并生成报告草稿，律师复核后交付。",
+    "keywords": [
+      "Ropes & Gray",
+      "法律",
+      "尽职调查",
+      "客户故事"
+    ],
+    "url": "https://openai.com/index/ropes-gray-ai-diligence",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-30-10",
+    "date": "2026-10-30",
+    "person": "Romain Huet",
+    "handle": "romainhuet",
+    "summary": "感谢用户反馈，并祝贺大家享受翻倍后的用量上限、继续构建。",
+    "keywords": [
+      "用量",
+      "反馈",
+      "Romain"
+    ],
+    "url": "https://x.com/romainhuet/status/2115860858098106749",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-29-01",
     "date": "2026-10-28",
     "person": "Tibo",
