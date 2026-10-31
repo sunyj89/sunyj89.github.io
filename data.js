@@ -1,6 +1,199 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-10-31-01",
+    "date": "2026-10-30",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor 扩展市场出现恶意修改的 Claude Code 扩展（2.1.312/2.1.313，非 Anthropic 官方），最多约 5,000 用户；试图装 SSH 后门；市场曾下架后重建；请升级 2.1.314 并排查。不影响 Grok Bot/Grok/其他 SpaceXSI 产品。",
+    "keywords": [
+      "Cursor",
+      "安全",
+      "Claude Code",
+      "扩展市场",
+      "后门"
+    ],
+    "url": "https://x.com/cursor_ai/status/2116074289053175808",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-31-02",
+    "date": "2026-10-30",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 OpenAI Private Intelligence，为企业用前沿模型做敏感工作提供更强数据控制（含 ZDR、Private Inference 预览等）。",
+    "keywords": [
+      "Private Intelligence",
+      "企业",
+      "隐私",
+      "ZDR"
+    ],
+    "url": "https://x.com/OpenAI/status/2116186509384815084",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-03",
+    "date": "2026-10-31",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "Agents API 本周更新：Auto Review、异步压缩、时间感知、会话中更新 tools、系统提示自动缓存。",
+    "keywords": [
+      "Agents API",
+      "Auto Review",
+      "compaction",
+      "prompt cache"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2116306164375863343",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-04",
+    "date": "2026-10-31",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "dots 短信能力扩展到加拿大与墨西哥的 Pro 用户。",
+    "keywords": [
+      "dots",
+      "短信",
+      "加拿大",
+      "墨西哥",
+      "Pro"
+    ],
+    "url": "https://x.com/ChatGPT/status/2116235328126365711",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-05",
+    "date": "2026-10-31",
+    "person": "Alex Ambrosino",
+    "handle": "ajambrosino",
+    "summary": "催促试用 ChatGPT Slides（也称 Codex Slides）。",
+    "keywords": [
+      "ChatGPT Slides",
+      "Codex Slides",
+      "桌面"
+    ],
+    "url": "https://x.com/ajambrosino/status/2116280539963703349",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-06",
+    "date": "2026-10-31",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "ChatGPT iOS 上 Codex Remote 的 Live Activities 已上线。",
+    "keywords": [
+      "Codex",
+      "iOS",
+      "Live Activities"
+    ],
+    "url": "https://x.com/Dimillian/status/2116252237479522372",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-07",
+    "date": "2026-10-30",
+    "person": "Alex Ambrosino",
+    "handle": "ajambrosino",
+    "summary": "侧边聊天持久化将上线（投票后「will ship soon」）。",
+    "keywords": [
+      "side chats",
+      "持久化",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/ajambrosino/status/2115999183434080298",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-08",
+    "date": "2026-10-30",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "支持网站用统一 robots.txt 信号表达是否允许用于基础生成式 AI 训练；数月内落实，不取代现有爬虫控制。",
+    "keywords": [
+      "robots.txt",
+      "训练偏好",
+      "出版商",
+      "IETF"
+    ],
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-09",
+    "date": "2026-10-30",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "将发布社区安全报告；收紧大规模袭击细节与未成年人武器相关回复；Q3 向执法移交 200+ 次。",
+    "keywords": [
+      "社区安全",
+      "青少年",
+      "枪支",
+      "报告"
+    ],
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-10",
+    "date": "2026-10-31",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "展示社区建造者用 GPT-6 Astra 远程控制机械臂的实验。",
+    "keywords": [
+      "Astra",
+      "机器人",
+      "Devs",
+      "物理世界"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2116236188319453386",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-11",
+    "date": "2026-10-31",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "称团队已看到 AI 改变岗位内工作内容；工资可能比编制/组织结构更早反映变化。",
+    "keywords": [
+      "劳动",
+      "工资",
+      "AGI 经济",
+      "OpenAI"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2116244403249459305",
+    "track": "openai"
+  },
+  {
+    "id": "2026-10-31-12",
+    "date": "2026-10-31",
+    "person": "jediahkatz",
+    "handle": "jediahkatz",
+    "summary": "认为做好的 compaction 应便宜近乎瞬时；可用异步提前压缩与缓存命中；检索旧会话可与压缩并用。",
+    "keywords": [
+      "compaction",
+      "Cursor",
+      "上下文",
+      "Agents"
+    ],
+    "url": "https://x.com/jediahkatz/status/2116307783075139910",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-10-31-13",
+    "date": "2026-10-31",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布品牌片「There are many futures. Which do you want to build?」",
+    "keywords": [
+      "品牌",
+      "未来",
+      "OpenAI"
+    ],
+    "url": "https://x.com/OpenAI/status/2116253388883345623",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-30-01",
     "date": "2026-10-30",
     "person": "Tibo",
