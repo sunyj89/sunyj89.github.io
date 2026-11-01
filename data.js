@@ -1,6 +1,126 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-01-01",
+    "date": "2026-11-01",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "发布「Banked 1/2」；结合前一天「接下来两天是 banked 重置」的预告，为两次 banked 重置中的第一笔。codex-resets.com 记为 banked、累计 70；窗内未见单独 Done/propagated 跟帖。",
+    "keywords": [
+      "Banked",
+      "额度重置",
+      "Codex",
+      "Day 27",
+      "thsottiaux"
+    ],
+    "url": "https://x.com/thsottiaux/status/2116692529970311254",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-02",
+    "date": "2026-10-31",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Day 26——ChatGPT 手机端可切换多账号，桌面即将支持；并写明接下来两天将是 banked 重置。帮助中心：最多同时登录 2 个账号，会话/账单等互不共享。",
+    "keywords": [
+      "Day 26",
+      "多账号",
+      "ChatGPT",
+      "mobile",
+      "banked reset"
+    ],
+    "url": "https://x.com/thsottiaux/status/2116405414921384099",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-03",
+    "date": "2026-10-31",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "确认 ChatGPT iOS 多账号切换可用，并引用 Tibo Day 26 原推。",
+    "keywords": [
+      "ChatGPT",
+      "iOS",
+      "多账号",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2116456933016137943",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-04",
+    "date": "2026-10-31",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "用 Grok Bot（@bot）按小时盯餐厅取消空位并推送；同时声明不主张用 AI 做黄牛或挤占他人体验。",
+    "keywords": [
+      "Grok Bot",
+      "订位",
+      "自动化",
+      "mattyp"
+    ],
+    "url": "https://x.com/mattyp/status/2116516547007308125",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-01-05",
+    "date": "2026-10-31",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "展示 ChatGPT iOS 上可同时进行 Codex 与拍照。",
+    "keywords": [
+      "Codex",
+      "iOS",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2116485684538360004",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-06",
+    "date": "2026-10-31",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "自研游戏 Dark Veil 全平台发版由 Codex 驱动，使用 6.1 Terra medium。",
+    "keywords": [
+      "Codex",
+      "Terra",
+      "游戏",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2116462201393520855",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-07",
+    "date": "2026-11-01",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "转发社区用 Codex → GPT-6 Astra + Three.js 纯代码搭建小城的演示。",
+    "keywords": [
+      "Codex",
+      "GPT-6 Astra",
+      "Three.js",
+      "OpenAIDevs"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2116673933990912217",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-01-08",
+    "date": "2026-11-01",
+    "person": "Alex Ambrosino",
+    "handle": "ajambrosino",
+    "summary": "以「finally」引用 Codex Remote Live Activities 演示（功能昨窗已报，本条为跟进）。",
+    "keywords": [
+      "Live Activities",
+      "Codex",
+      "Ambrosino"
+    ],
+    "url": "https://x.com/ajambrosino/status/2116583535956132193",
+    "track": "openai"
+  },
+  {
     "id": "2026-10-31-01",
     "date": "2026-10-30",
     "person": "Cursor",
