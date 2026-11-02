@@ -1,6 +1,122 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-02-01",
+    "date": "2026-11-02",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "发布「Day 28/ Banked 2/2」；为预告的两次 banked 重置之第二笔，亦是 28 天冲刺最后一天。codex-resets.com 记为 banked、累计 71；窗内未见单独 Done/propagated 跟帖。",
+    "keywords": [
+      "Banked",
+      "额度重置",
+      "Codex",
+      "Day 28",
+      "thsottiaux"
+    ],
+    "url": "https://x.com/thsottiaux/status/2117035794678546764",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-02",
+    "date": "2026-11-02",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "吐槽手机把 Dot 自动纠成 dog，并跟帖「我的狗帮打补丁 / 发会议纪要 / 预约理发」等段子，侧面说明文字 Dot 已进入日常使用场景。",
+    "keywords": [
+      "dots",
+      "Dot",
+      "自动纠错",
+      "thsottiaux"
+    ],
+    "url": "https://x.com/thsottiaux/status/2116935650511585696",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-03",
+    "date": "2026-11-02",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "社区有人以为 28 天已结束时，Tibo 幽默回复「I demand a banked reset」；约 6 小时后正式放出 Banked 2/2。",
+    "keywords": [
+      "Banked",
+      "28天",
+      "thsottiaux"
+    ],
+    "url": "https://x.com/thsottiaux/status/2116942192497533418",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-04",
+    "date": "2026-11-01",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "转发社区用 Codex 编写固件，把 LilyGO T-Display 做成大金空调遥控器模拟器并开源。",
+    "keywords": [
+      "Codex",
+      "固件",
+      "嵌入式",
+      "OpenAIDevs"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2116921221862301843",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-05",
+    "date": "2026-11-01",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "晒 Codex「lost itself」截图——会话中 Codex 在查看 Backrooms 风格参考图，属趣味翻车而非功能发布。",
+    "keywords": [
+      "Codex",
+      "Dimillian",
+      "翻车"
+    ],
+    "url": "https://x.com/Dimillian/status/2116792536358391902",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-06",
+    "date": "2026-11-01",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "「Codex is gain lost」——另一张 Codex 查看墓穴/骨库类参考图的截图，延续趣味翻车主题。",
+    "keywords": [
+      "Codex",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2116824521948667911",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-07",
+    "date": "2026-11-01",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "展示自研未上市引擎在 iPhone 上跑 120 FPS 的视频，并跟帖说明。",
+    "keywords": [
+      "iPhone",
+      "引擎",
+      "Dimillian",
+      "Codex生态"
+    ],
+    "url": "https://x.com/Dimillian/status/2116791265769754923",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-02-08",
+    "date": "2026-11-01",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "转发 iPhone Duo 上 Codex Remote + Safari 分屏、配合 Proxmox LXC/guacamole 沙箱的演示。",
+    "keywords": [
+      "Codex Remote",
+      "iPhone",
+      "Dimillian"
+    ],
+    "url": "https://x.com/Dimillian/status/2116857407041089911",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-01-01",
     "date": "2026-11-01",
     "person": "Tibo",
