@@ -1,6 +1,128 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-03-01",
+    "date": "2026-11-02",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "预告正在扩大驱动 dots 的前沿模型家族，含 GPT-6 Astra 与 GPT-6.1 Terra 等；Terra 强调速度与性格升级，并帮助触达更多人。跟帖称 dot 会按任务选模型。这是产品更新，不是用量重置。",
+    "keywords": [
+      "dots",
+      "Astra",
+      "Terra",
+      "GPT-6",
+      "thsottiaux"
+    ],
+    "url": "https://x.com/thsottiaux/status/2117283124833055196",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-03-02",
+    "date": "2026-11-03",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "发布 Pando——OpenAI monorepo 的新 Git 兼容后端，推送延迟约降 80%，日吞吐近 1 PB；为 Codex 带来的并发推送/拉取而建，并向上游 Git 回馈修复。",
+    "keywords": [
+      "Pando",
+      "Git",
+      "Codex",
+      "工程",
+      "OpenAIDevs"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-03-03",
+    "date": "2026-11-03",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "推出 LifeVal，按用户最想要个人助手帮忙的日常任务（托儿、政务、理财等）评测并驱动模型改进。",
+    "keywords": [
+      "LifeVal",
+      "评测",
+      "ChatGPT",
+      "日常任务"
+    ],
+    "url": "https://x.com/OpenAI/status/2117307611338997846",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-03-04",
+    "date": "2026-11-02",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "官博推出 Grid Protectors：未来算力园区在电网承压时可按约定降负荷；佐治亚规划园区协议含最高约 1000 MW 需求响应。本窗未见 OpenAI 官方 X 原推，以博客为准。",
+    "keywords": [
+      "Grid Protectors",
+      "电力",
+      "数据中心",
+      "公用事业"
+    ],
+    "url": "https://openai.com/index/grid-protectors-program",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-03-05",
+    "date": "2026-11-03",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "介绍内部 Data Bot（Team/Shared Bot）：各团队可按数据科学家方式查仓、分析、建看板；上周约替代 70 小时数据科学工作。",
+    "keywords": [
+      "Data Bot",
+      "Team Bot",
+      "Grok Bot",
+      "Shared Bot"
+    ],
+    "url": "https://x.com/bot/status/2117349540168876334",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-03-06",
+    "date": "2026-11-03",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布「What's New in Grok Bot」视频速览：购物与支付、自定义模式、Team Bot 分享、Slack connector、Vault 联系人等。",
+    "keywords": [
+      "Grok Bot",
+      "What's New",
+      "Team Bot",
+      "mattyp"
+    ],
+    "url": "https://x.com/mattyp/status/2117302664799396177",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-03-07",
+    "date": "2026-11-02",
+    "person": "Wojciech Zaremba",
+    "handle": "woj_zaremba",
+    "summary": "宣布 Nora Ammann 加入 OpenAI Foundation，任形式化方法项目总监，此前在 ARIA Safeguarded AI。",
+    "keywords": [
+      "OpenAI Foundation",
+      "形式化方法",
+      "安全",
+      "招聘"
+    ],
+    "url": "https://x.com/woj_zaremba/status/2117282295803756571",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-03-08",
+    "date": "2026-11-03",
+    "person": "jediahkatz",
+    "handle": "jediahkatz",
+    "summary": "预告将在 Compile NYC 用黑板短讲介绍优化 agent harness 时关注的核心指标及如何拉动。",
+    "keywords": [
+      "agent harness",
+      "Compile NYC",
+      "Cursor",
+      "jediahkatz"
+    ],
+    "url": "https://x.com/jediahkatz/status/2117326506993103246",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-02-01",
     "date": "2026-11-02",
     "person": "Tibo",
