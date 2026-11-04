@@ -1,6 +1,139 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-04-01",
+    "date": "2026-11-04",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Voice 接入 Finances：经 Finances 安全连接账户后，可用语音讨论支出、储蓄等金钱问题。",
+    "keywords": [
+      "ChatGPT",
+      "Voice",
+      "Finances",
+      "理财"
+    ],
+    "url": "https://x.com/ChatGPT/status/2117678200700682732",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-02",
+    "date": "2026-11-04",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "分享 ChatGPT/Codex 在机械设计、电气与仿真上的进展；与赛车/车企合作；两人用 GPT-6 Astra 一周内原型出可对 Codex 说话的硬件设备。",
+    "keywords": [
+      "物理世界",
+      "Astra",
+      "Codex",
+      "工程",
+      "OpenAI"
+    ],
+    "url": "https://x.com/OpenAI/status/2117692475775258785",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-03",
+    "date": "2026-11-03",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "下一轮内部安全冲刺，与 Cathedral Systems 合作用模型打自家防线；关键漏洞赏金超四倍，含 bonus 最高约 $172,000；近 30 天已发赏金可按新档补差。",
+    "keywords": [
+      "安全",
+      "bug bounty",
+      "Cathedral",
+      "OpenAI"
+    ],
+    "url": "https://x.com/OpenAI/status/2117444048227123277",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-04",
+    "date": "2026-11-04",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 推出新购物体验：找最优价、比商品、跟踪订单；官方演示视频。",
+    "keywords": [
+      "Grok Bot",
+      "购物",
+      "订单跟踪"
+    ],
+    "url": "https://x.com/bot/status/2117736249444507834",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-04-05",
+    "date": "2026-11-04",
+    "person": "Brent Traut",
+    "handle": "btraut",
+    "summary": "ChatGPT Side chats 不再因重启/更新过期或消失；移动端即将支持。OpenAI 员工 Brent Traut 宣布，名单内 Dimillian 等跟进。",
+    "keywords": [
+      "Side chats",
+      "ChatGPT",
+      "持久化"
+    ],
+    "url": "https://x.com/btraut/status/2117696508732875021",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-06",
+    "date": "2026-11-04",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "欢迎 Jill Hazelbaker 自 Uber 加盟 OpenAI，任首席企业事务官（chief corporate affairs officer）。",
+    "keywords": [
+      "招聘",
+      "企业事务",
+      "Jill Hazelbaker",
+      "gdb"
+    ],
+    "url": "https://x.com/gdb/status/2117755028211642849",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-07",
+    "date": "2026-11-03",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "承接昨日 Pando 发布，Greg 表示正考虑把该 Git 后端提供给外部，感兴趣可联系 gdb@openai.com。",
+    "keywords": [
+      "Pando",
+      "Git",
+      "对外开放",
+      "gdb"
+    ],
+    "url": "https://x.com/gdb/status/2117435285021810921",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-08",
+    "date": "2026-11-04",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "称智能体仍「惊人又挫败」，期待重新找回 flow；强调还很早期、变化会持续。非发版、非重置。",
+    "keywords": [
+      "agents",
+      "Tibo",
+      "产品哲学"
+    ],
+    "url": "https://x.com/thsottiaux/status/2117746467058405665",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-04-09",
+    "date": "2026-11-04",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "转发 Unity：官方 Unity×Codex 插件已上架 OpenAI 通用插件目录，Codex 可选用插件 skills。",
+    "keywords": [
+      "Unity",
+      "Codex",
+      "插件",
+      "OpenAIDevs"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2117733400228303154",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-03-01",
     "date": "2026-11-02",
     "person": "Tibo",
