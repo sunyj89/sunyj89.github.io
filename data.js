@@ -1,6 +1,155 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-05-01",
+    "date": "2026-11-04",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "OpenAI 宣布收购 Pierre Computer Company，强化 Codex 作为团队与 AI 一起从想法做到上线的协作场所；Pierre 开源开发者工具已部分用于 Codex。",
+    "keywords": [
+      "Pierre",
+      "收购",
+      "Codex",
+      "协作开发"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2117999237745049883",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-02",
+    "date": "2026-11-05",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 ChatGPT Images 2.6：支持 GIF、参考图复用；API 上新 GPT-Image-2.6 Flare / Sunburst，生成约快 50%；称 ChatGPT 与 Codex 全档位及 API 今日可用。",
+    "keywords": [
+      "Images 2.6",
+      "GIF",
+      "Flare",
+      "Sunburst",
+      "Codex",
+      "API"
+    ],
+    "url": "https://x.com/OpenAI/status/2118124944928432327",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-03",
+    "date": "2026-11-05",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "自主漏洞发现与打补丁流水线单次跑出 948 个 Linux 本地提权补丁，API 花费约 121 万美元；并称发现至少 10 种新颖利用手法，正与维护者协作报告。",
+    "keywords": [
+      "网络安全",
+      "Linux",
+      "提权",
+      "补丁",
+      "Daybreak"
+    ],
+    "url": "https://x.com/OpenAI/status/2118119451401048497",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-04",
+    "date": "2026-11-05",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 官方宣布现已支持打电话，并附演示视频。",
+    "keywords": [
+      "Grok Bot",
+      "电话",
+      "通话"
+    ],
+    "url": "https://x.com/bot/status/2118043939592942052",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-05-05",
+    "date": "2026-11-05",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布 Pages in Grok Bot 教程视频，介绍 Pages 概念、示例、分享、用自有数据与嵌入 X 帖等。",
+    "keywords": [
+      "Grok Bot",
+      "Pages",
+      "教程"
+    ],
+    "url": "https://x.com/mattyp/status/2118021605544833173",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-05-06",
+    "date": "2026-11-05",
+    "person": "Cat Wu",
+    "handle": "_catwu",
+    "summary": "Cat 加盟 OpenAI，任 Core Products 产品管理负责人，表示将与 Tibo 及团队一起构建让用户保持控制权的智能体产品。",
+    "keywords": [
+      "人事",
+      "Core Products",
+      "Cat",
+      "Tibo"
+    ],
+    "url": "https://x.com/_catwu/status/2118137612577968402",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-07",
+    "date": "2026-11-04",
+    "person": "Sam Altman",
+    "handle": "sama",
+    "summary": "强调人应始终掌控未来；反对把人贬为「AI 认为该奖励人类做的事」；不应把未来控制权让给超级智能，且该要求最终应约束 AI 进展。",
+    "keywords": [
+      "Sam Altman",
+      "人类控制",
+      "超级智能",
+      "对齐"
+    ],
+    "url": "https://x.com/sama/status/2117794005165748448",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-08",
+    "date": "2026-11-05",
+    "person": "Samir",
+    "handle": "_samirism",
+    "summary": "dots 最新版强调更快更稳：iOS 通知内联回复、分享到 dot、Action 按钮打开、通知进入加速、Gmail 深链等；可直接向 dot 提产品反馈。",
+    "keywords": [
+      "dots",
+      "iOS",
+      "体验更新"
+    ],
+    "url": "https://x.com/_samirism/status/2118103057980690771",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-09",
+    "date": "2026-11-05",
+    "person": "Alex Ambrosino",
+    "handle": "ajambrosino",
+    "summary": "修复本地长线程内存持续上涨问题，「把 RAM 还给用户」。",
+    "keywords": [
+      "Codex",
+      "内存",
+      "本地线程",
+      "桌面"
+    ],
+    "url": "https://x.com/ajambrosino/status/2118028125707923513",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-05-10",
+    "date": "2026-11-05",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "发布「October for OpenAI developers」汇总，回顾 Decisions API、Ultrafast、composer predictions、缓存档位、Terra computer use、Windows sandbox、Sites、插件侧栏等十月开发者更新。",
+    "keywords": [
+      "开发者月刊",
+      "API",
+      "Codex"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2118083933233357132",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-04-01",
     "date": "2026-11-04",
     "person": "ChatGPT",
