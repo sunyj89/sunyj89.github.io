@@ -1,6 +1,156 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-06-01",
+    "date": "2026-11-06",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 GPT‑6 Cyber：网络安全专用模型，ExploitGym 相对 GPT‑5.6 Cyber 约提升 51%，守范围对齐显著增强；已支撑 Linux/Firefox 等实战，经 Daybreak Red 向部分获批客户开放，并扩 Daybreak Blue alpha。",
+    "keywords": [
+      "GPT-6 Cyber",
+      "Daybreak",
+      "网络安全",
+      "对齐"
+    ],
+    "url": "https://x.com/OpenAI/status/2118390190246879554",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-02",
+    "date": "2026-11-06",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor 现可构建 Live Apps 并用链接分享：描述需求后自动构建、建库、安全检查并部署；付费档可用，需更新最新版。",
+    "keywords": [
+      "Cursor",
+      "Live Apps",
+      "部署",
+      "分享"
+    ],
+    "url": "https://x.com/cursor_ai/status/2118458629091426304",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-06-03",
+    "date": "2026-11-06",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "转发 Linear「Product Ops」Grok Bot：接 Linear、云端编程智能体与 GitHub，可获 $25 Linear AI 额度（30 天内）；用于调研、规划、委派与项目更新。",
+    "keywords": [
+      "Grok Bot",
+      "Linear",
+      "Product Ops",
+      "额度"
+    ],
+    "url": "https://x.com/bot/status/2118469922544357561",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-06-04",
+    "date": "2026-11-06",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "介绍 Private Safety Processing：安全相关 API 请求可由自动化智能体在客户环境审阅，OpenAI 不保留提示/回复且员工无法直接访问内容。",
+    "keywords": [
+      "Private Safety Processing",
+      "API",
+      "零保留",
+      "安全"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2118386439675420743",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-05",
+    "date": "2026-11-06",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "宣布与 JPMorganChase 战略合作，探索用先进 AI 支持企业工程、安全与员工/客户体验，并强调以 AI 强化金融系统网络安全。",
+    "keywords": [
+      "JPMorgan",
+      "企业",
+      "网络安全",
+      "合作"
+    ],
+    "url": "https://x.com/gdb/status/2118410818933203038",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-06",
+    "date": "2026-11-06",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "发布面向算力园区社区的承诺与政策蓝图：自付能源成本、公开水电噪音影响、本地就业与采购，并呼吁监管配套。",
+    "keywords": [
+      "基础设施",
+      "社区",
+      "政策",
+      "Stargate"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2118435446913159514",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-07",
+    "date": "2026-11-06",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "称 ChatGPT 与 API 合计每周图像生成已超 40 亿张，较约 8 周前的 30 亿+/周继续攀升。",
+    "keywords": [
+      "图像生成",
+      "用量",
+      "ChatGPT",
+      "API"
+    ],
+    "url": "https://x.com/thsottiaux/status/2118469621011677521",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-08",
+    "date": "2026-11-05",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "转发 GPT-Live 出站电话 API 正式 GA：Live 语音智能体可经任意 SIP 中继外呼，支持 HD Voice 与 DTMF。",
+    "keywords": [
+      "GPT-Live",
+      "电话",
+      "SIP",
+      "GA"
+    ],
+    "url": "https://x.com/gdb/status/2118204795219489172",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-09",
+    "date": "2026-11-06",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "预告 11月12日 10am PT（约北京时间 11月13日 02:00）「Cyber at the Frontier」直播，将有更多 Cyber 相关发布。",
+    "keywords": [
+      "直播",
+      "Cyber",
+      "Daybreak",
+      "预告"
+    ],
+    "url": "https://x.com/OpenAI/status/2118390195099930906",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-06-10",
+    "date": "2026-11-06",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "转发 Harper 保险案例：用 Grok Bot 搭建环境智能体处理后台，服务美国 6000+ 中小企业投保需求。",
+    "keywords": [
+      "Grok Bot",
+      "Harper",
+      "保险",
+      "案例"
+    ],
+    "url": "https://x.com/bot/status/2118497350599794969",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-05-01",
     "date": "2026-11-04",
     "person": "OpenAI Newsroom",
