@@ -1,6 +1,152 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-07-01",
+    "date": "2026-11-07",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Sites「Remix」向 Business / Enterprise 推开：可用自然语言说明修改意图，生成并继续在对话中编辑自己的站点副本。",
+    "keywords": [
+      "Remix",
+      "Sites",
+      "Business",
+      "Enterprise"
+    ],
+    "url": "https://x.com/ChatGPT/status/2118827837239226387",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-02",
+    "date": "2026-11-07",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "OpenAI 开发者插件新增 Showcase 页；符合条件的 ChatGPT Pro / Business 订户可在账单设置领取 API 额度，用于覆盖应用 API 用量，并可选起步项目在 Codex 中继续开发。",
+    "keywords": [
+      "Showcase",
+      "API额度",
+      "Pro",
+      "Business",
+      "Codex"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2118856544733532452",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-03",
+    "date": "2026-11-07",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 BioBasicsBench：与 Ligo 合作、基于 100 项真实湿实验室任务，评测 AI 智能体解读实验数据、纠错与拒绝无据结论的能力。",
+    "keywords": [
+      "BioBasicsBench",
+      "湿实验室",
+      "评测",
+      "生物安全"
+    ],
+    "url": "https://x.com/OpenAI/status/2118782708767965238",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-04",
+    "date": "2026-11-07",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "与 Frontier Model Forum 及其成员公司发布框架，用于识别绕过 AI 护栏可能造成严重网络危害的情形，并优先加强防护。",
+    "keywords": [
+      "FMF",
+      "越狱",
+      "网络安全",
+      "护栏"
+    ],
+    "url": "https://x.com/OpenAI/status/2118795218099253606",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-05",
+    "date": "2026-11-06",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "宣布与 Hacktron 合作挖掘 OpenAI 自有系统漏洞（侧重与第三方服务交互），并经 Daybreak Red 扩大其对前沿模型访问；本窗未见对应官方 X 主帖。",
+    "keywords": [
+      "Hacktron",
+      "漏洞",
+      "Daybreak Red",
+      "赏金"
+    ],
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-06",
+    "date": "2026-11-06",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "称人类并不擅长写安全基础设施，终态应是人人可用的超安全软硬件但中间会有动荡；并称对数千万行代码做形式化证明已不再荒诞。",
+    "keywords": [
+      "安全基础设施",
+      "形式化证明",
+      "Cyber"
+    ],
+    "url": "https://x.com/thsottiaux/status/2118569235953893573",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-07",
+    "date": "2026-11-07",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "再提醒 11月12日 10am PT（约北京时间 11月13日 02:00）「Cyber at the Frontier」直播，称还会有更多内容。",
+    "keywords": [
+      "直播",
+      "Cyber",
+      "预告"
+    ],
+    "url": "https://x.com/thsottiaux/status/2118802895604994463",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-08",
+    "date": "2026-11-07",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "称 dots 团队在加速；引用更新称通话接通更快，并可说「goodbye」免提挂断。",
+    "keywords": [
+      "dots",
+      "通话",
+      "免提挂断"
+    ],
+    "url": "https://x.com/gdb/status/2118753277718528402",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-09",
+    "date": "2026-11-07",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "转发 Notion 官方插件：可在 ChatGPT 内用 Notion 编辑器建页并边聊边编辑，无需离开对话。",
+    "keywords": [
+      "Notion",
+      "插件",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/ChatGPT/status/2118767587580588295",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-07-10",
+    "date": "2026-11-07",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "转发 Agents API 十月合集：auto review、automations、会话中改工具、Artifact SDK、时间感知、沙箱预热/快照、异步压缩与跨会话缓存等，并预告多项 beta。",
+    "keywords": [
+      "Agents API",
+      "auto review",
+      "automations"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2118770856612483514",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-06-01",
     "date": "2026-11-06",
     "person": "OpenAI",
