@@ -1,6 +1,107 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-08-01",
+    "date": "2026-11-08",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "有人问停止发放重置后 Codex 额度是否更能撑一阵，Tibo 回复称已把 Pro 套餐和 Business 100 的用量加倍。这不是一次额度重置，也未说明生效时间和是否覆盖其他档位。",
+    "keywords": [
+      "用量加倍",
+      "Pro",
+      "Business 100",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2119232059537514598",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-08-02",
+    "date": "2026-11-08",
+    "person": "@TheRohanVarma",
+    "handle": "TheRohanVarma",
+    "summary": "Rohan Varma（dots / Codex 产品）宣布离开 OpenAI，感谢 @embirico 与 @thsottiaux，并对公司文化和攻坚能力表示看好；未说明下一站。@embirico 回复感谢他的付出。",
+    "keywords": [
+      "离职",
+      "dots",
+      "Codex",
+      "组织变动"
+    ],
+    "url": "https://x.com/TheRohanVarma/status/2119218729733312691",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-08-03",
+    "date": "2026-11-08",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "转发 @JamesZmSun：dot 现在可用已连接邮箱里的登录验证码代为完成登录；用户可选择只用一次或始终允许填写，并称后续还有更多登录改进。",
+    "keywords": [
+      "dots",
+      "验证码",
+      "登录",
+      "邮箱"
+    ],
+    "url": "https://x.com/ChatGPT/status/2119149172511440980",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-08-04",
+    "date": "2026-11-07",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "称 Grok Bot 文档刚改了版，跟帖说还在打磨细节，并预告后面还有更新；文档指向 SpaceXSI / xAI 的 Grok Bot 概述页。",
+    "keywords": [
+      "Grok Bot",
+      "文档",
+      "改版"
+    ],
+    "url": "https://x.com/mattyp/status/2118871619074720147",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-08-05",
+    "date": "2026-11-08",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "引用 Runway 开发者账号宣布：Runway 现已可用 GPT Image 2.6 生成 GIF。这是 Image 2.6 / GIF 能力的生态跟进。",
+    "keywords": [
+      "GPT Image 2.6",
+      "GIF",
+      "Runway"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2119137258779611273",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-08-06",
+    "date": "2026-11-08",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "称安全架构的基本功比以往更重要，并引用关于减少未认证、匿名攻击代理直接触达系统的讨论。",
+    "keywords": [
+      "安全架构",
+      "网络安全"
+    ],
+    "url": "https://x.com/gdb/status/2119179547468005432",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-08-07",
+    "date": "2026-11-08",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "展示用 Astra 做的类暗黑程序化像素风原型（自定义引擎、光照与网格流体水面），并说下周想多分享一些带提示词的小 demo。",
+    "keywords": [
+      "Astra",
+      "像素风",
+      "演示",
+      "提示词"
+    ],
+    "url": "https://x.com/Dimillian/status/2119098391447957685",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-07-01",
     "date": "2026-11-07",
     "person": "ChatGPT",
