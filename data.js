@@ -1,6 +1,82 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-09-01",
+    "date": "2026-11-08",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 澄清所有 Pro 套餐都没有 5 小时限额，并给出相对 Plus 的用量：Pro 100 = 10X、Pro 200 = 20X、Pro 500 = 50X 且可访问 ultrafast；随后问社区 Pro 50 是否有意义。这不是一次额度重置。",
+    "keywords": [
+      "Pro",
+      "5小时限额",
+      "用量倍数",
+      "Pro 50",
+      "Codex"
+    ],
+    "url": "https://x.com/thsottiaux/status/2119296267545419987",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-09-02",
+    "date": "2026-11-09",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "短视频预告「Tomorrow.」，画面出现 OpenAI 与 ModRetro Chromatic 并排 Logo，以及「NOVEMBER 9 / ON SUPPLY CO.」和掌机线稿包装；指向今日联名掌机/周边上线，具体规格与售价原推未写。",
+    "keywords": [
+      "ModRetro",
+      "Chromatic",
+      "Supply Co",
+      "掌机",
+      "预告"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2119521359185478140",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-09-03",
+    "date": "2026-11-09",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "称 Grok Bot 的 token 效率与行为改进正在进行，强调会继续支持已在 @bot 上搭建重要工作流的用户，并请大家在该帖下反馈；这不是额度重置公告。",
+    "keywords": [
+      "Grok Bot",
+      "token 效率",
+      "行为",
+      "反馈"
+    ],
+    "url": "https://x.com/mattyp/status/2119474599708827957",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-09-04",
+    "date": "2026-11-09",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "称带大量测试时算力的前沿模型，正成为科学发现的引擎；未点名具体产品或论文。",
+    "keywords": [
+      "前沿模型",
+      "测试时算力",
+      "科学发现"
+    ],
+    "url": "https://x.com/gdb/status/2119561347805687848",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-09-05",
+    "date": "2026-11-08",
+    "person": "Thomas Ricouard",
+    "handle": "Dimillian",
+    "summary": "展示用 Astra 把 King’s Field 开源引擎迁到 macOS / iPhone Duo，并称 Astra（high）适合用参考图模仿 PS1 画风；属个人演示。",
+    "keywords": [
+      "Astra",
+      "King’s Field",
+      "Duo",
+      "演示"
+    ],
+    "url": "https://x.com/Dimillian/status/2119354507893104683",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-08-01",
     "date": "2026-11-08",
     "person": "Tibo",
