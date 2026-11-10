@@ -1,6 +1,123 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-10-01",
+    "date": "2026-11-10",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "@bot 宣布已为全体 Grok Bot 用户重置周额度（原文 “We've reset weekly limits for all Grok Bot users. Enjoy!”）；@mattyp 同步引用确认，并称团队在加班支持。未写与 Cursor 额度的关系或更细到账时间表。",
+    "keywords": [
+      "Grok Bot",
+      "周额度",
+      "额度重置"
+    ],
+    "url": "https://x.com/bot/status/2119871982946971659",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-10-02",
+    "date": "2026-11-10",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "ModRetro Chromatic Codex 版在 Supply Co. 上架；可用 Codex 插件设计关卡、动画精灵并在掌机试玩，附可写卡带。承接昨日「Tomorrow.」预告。",
+    "keywords": [
+      "ModRetro",
+      "Chromatic",
+      "Codex",
+      "Supply Co",
+      "掌机"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2119864571733446774",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-10-03",
+    "date": "2026-11-10",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "同一 dot 可连接多台本地电脑，并按任务选择使用哪一台，例如在专用机构建/测试、笔记本继续写代码。",
+    "keywords": [
+      "dots",
+      "多机",
+      "本地电脑"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-10-04",
+    "date": "2026-11-10",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Claude Fable 5.2 已在 Cursor 可用；默认努力档 CursorBench 56.9%（相对 5.1 的 49.2%），最大努力档 60% 并称目前榜首。",
+    "keywords": [
+      "Claude Fable 5.2",
+      "Cursor",
+      "CursorBench"
+    ],
+    "url": "https://x.com/cursor_ai/status/2119880829212172509",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-10-05",
+    "date": "2026-11-10",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "发布 Control Room：集中追踪研究侧模型负载，并在安全/安保需要时快速熔断；与错位监控联动，决定干预后约 35 秒内停止模型输出，且 fail-closed。",
+    "keywords": [
+      "Control Room",
+      "安全",
+      "熔断",
+      "研究基础设施"
+    ],
+    "url": "https://x.com/OpenAI/status/2119913172039868579",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-10-06",
+    "date": "2026-11-10",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "转发 Agents API 更新：prompt cache 可保持 12 小时；异步函数让 agent 在工具返回前继续工作；会话级预算控制进入 beta。",
+    "keywords": [
+      "Agents API",
+      "prompt cache",
+      "异步函数",
+      "预算控制"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2119882825981939950",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-10-07",
+    "date": "2026-11-09",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "称已亲自回复数百条关于 token 效率与行为改进的反馈，会继续盯评论，并用 @bot 做聚合；强调聚合不能替代真人对话。",
+    "keywords": [
+      "Grok Bot",
+      "用户反馈",
+      "token 效率"
+    ],
+    "url": "https://x.com/mattyp/status/2119789494723649662",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-10-08",
+    "date": "2026-11-10",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "引用 OpenTable 与 OpenAI 原生集成在 9 月带来约 19 万人到店的数据，称接入 OpenAI 能带来可观生意。",
+    "keywords": [
+      "OpenTable",
+      "集成",
+      "商业",
+      "gdb"
+    ],
+    "url": "https://x.com/gdb/status/2119834216787747139",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-09-01",
     "date": "2026-11-08",
     "person": "Tibo",
