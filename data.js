@@ -1,6 +1,212 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-11-01",
+    "date": "2026-11-11",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "Businesses in ChatGPT 进入 beta。商家可通过 Business Hub 认领并核验业务、更新资料、添加产品 feed，并查看汇总互动洞察（不向商家分享用户对话）。符合条件的美国电商与在线服务商家还可发布 Business Agent，在单独、带标识的对话里服务顾客。",
+    "keywords": [
+      "Businesses in ChatGPT",
+      "Business Hub",
+      "Business Agent",
+      "ChatGPT"
+    ],
+    "url": "https://x.com/OpenAI/status/2120216592395174382",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-02",
+    "date": "2026-11-11",
+    "person": "OpenAI Newsroom",
+    "handle": "OpenAINewsroom",
+    "summary": "Advanced 与 Standard 语音将于 2026年12月11日从 ChatGPT Voice 停用（未写具体时刻），之后无法再选择，已选用者默认切到 GPT-Live。实时视频与屏幕共享在 GPT-Live 具备该能力前仍由 Advanced 驱动。",
+    "keywords": [
+      "GPT-Live",
+      "Advanced Voice",
+      "Standard Voice",
+      "停用"
+    ],
+    "url": "https://x.com/OpenAINewsroom/status/2120277245713654201",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-03",
+    "date": "2026-11-11",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Cursor Projects 改造成多人协作，Team Projects 即日起 beta。每位成员可带上自己的 agent，共享任务板与上下文；agent 会同步计划、标记冲突并互相请求以解开阻塞。",
+    "keywords": [
+      "Cursor",
+      "Team Projects",
+      "多人协作",
+      "agent"
+    ],
+    "url": "https://x.com/cursor_ai/status/2120295553309565139",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-11-04",
+    "date": "2026-11-11",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Gemini 4 Carbon 已在 Cursor 可用；高努力档 CursorBench 60.4%，称目前榜首。至 11月30日五折（输入 $2/M、输出 $10/M tokens），12月1日起升至 $4/M / $20/M（未写时区）。",
+    "keywords": [
+      "Gemini 4 Carbon",
+      "Cursor",
+      "CursorBench"
+    ],
+    "url": "https://x.com/cursor_ai/status/2120193584670580857",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-11-05",
+    "date": "2026-11-11",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 现可加入个人或公司的 Tailscale 网络（tailnet），用于安全访问私有 MCP 服务器、内部工具和内网应用。",
+    "keywords": [
+      "Grok Bot",
+      "Tailscale",
+      "MCP",
+      "内网"
+    ],
+    "url": "https://x.com/bot/status/2120279511707386263",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-11-06",
+    "date": "2026-11-11",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "ChatGPT Business 套餐可通过「Sign in with ChatGPT」用于 Notion、v0、Amp、Kilo、Warp、Hermes、OpenClaw、OpenCode 等第三方工具；工作区管理员可开启并设置用量上限。",
+    "keywords": [
+      "Sign in with ChatGPT",
+      "ChatGPT Business",
+      "第三方工具"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-07",
+    "date": "2026-11-11",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "发布 Grok Bot 一周功能速览（电话、分享菜单、X 卡片、购物与礼物、Team Bots、搜索、隐藏指令警告、草稿附件、退出登录、天气等）；并澄清 Team Bots 目前仅 Teams / Enterprise，本周更新主要在管理端。",
+    "keywords": [
+      "Grok Bot",
+      "功能速览",
+      "Team Bots"
+    ],
+    "url": "https://x.com/mattyp/status/2120206234804727821",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-11-08",
+    "date": "2026-11-11",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "@FDavidsonT（Odessia 创始人、Sonder 联合创始人）宣布公司已被 OpenAI 收购，自己将加入并「专注旅行的未来」，条款未披露；@gdb 回复欢迎加入。OpenAI 官方账号与官博 RSS 本窗未发收购公告。",
+    "keywords": [
+      "Odessia",
+      "收购",
+      "旅行",
+      "gdb"
+    ],
+    "url": "https://x.com/gdb/status/2120257205324648811",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-09",
+    "date": "2026-11-11",
+    "person": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "summary": "介绍 Runway 插件在 Codex 与 ChatGPT 中的用法，例如查看原型角色动作、试预告片开场，或把产品图做成视频广告。",
+    "keywords": [
+      "Runway",
+      "Codex",
+      "ChatGPT",
+      "插件",
+      "视频"
+    ],
+    "url": "https://x.com/OpenAIDevs/status/2120258357533749755",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-10",
+    "date": "2026-11-10",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "补充昨日 dots 多机能力，称 dots 现在除默认提供的云端小电脑外，还可以控制多台机器。",
+    "keywords": [
+      "dots",
+      "多机",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2120021043876106429",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-11",
+    "date": "2026-11-11",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "指出 Claude 新发布的 interactive connectors 由 OpenAI plugin extensions 驱动，已有扩展也将在 Claude 上可用，并称正洽谈上游到 MCP 官方规范。Tibo 引用该功能称各实验室在一起创新。",
+    "keywords": [
+      "plugin extensions",
+      "MCP",
+      "Claude",
+      "connectors"
+    ],
+    "url": "https://x.com/mxstbr/status/2120249867276804267",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-12",
+    "date": "2026-11-11",
+    "person": "RonnieChatterji",
+    "handle": "RonnieChatterji",
+    "summary": "转发 OpenAI 与 Upwork 的新研究：自由职业需求在变化，并非简单被 ChatGPT 替代；与 AI 相关的项目预算更大、工时更多，任务组合也更宽。",
+    "keywords": [
+      "自由职业",
+      "Upwork",
+      "Work at the Frontier",
+      "劳动市场"
+    ],
+    "url": "https://x.com/RonnieChatterji/status/2120228473134252323",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-13",
+    "date": "2026-11-11",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "在回复「跳槽 Anthropic」传闻时称，团队正在组建「最好的团队之一」，偶尔会和 Anthropic 的人交流，并对接下来几个月感到兴奋。这是对他人谣言帖的回复，不是产品公告。",
+    "keywords": [
+      "Tibo",
+      "团队",
+      "Anthropic"
+    ],
+    "url": "https://x.com/thsottiaux/status/2120304649807020238",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-11-14",
+    "date": "2026-11-11",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "再次提醒 Cyber at the Frontier 直播：11月12日 10:00 PT（11月13日 02:00 CST），@gdb 将分享用前沿模型发现并修复自身漏洞的经验，以及如何把这些经验做成给客户用的工具。",
+    "keywords": [
+      "Cyber at the Frontier",
+      "安全",
+      "直播",
+      "gdb"
+    ],
+    "url": "https://x.com/OpenAI/status/2120202353907486826",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-10-01",
     "date": "2026-11-10",
     "person": "Grok Bot",
