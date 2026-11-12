@@ -1,6 +1,79 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-12-01",
+    "date": "2026-11-12",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 1.0 发布，定位为可与整个团队共事的 AI 同事：共享 Bot，在 Slack 和 Microsoft Teams 协作，并可加入 Zoom / Google Meet / Teams 会议。官博写明 Team Bots 面向 Team / Enterprise，会议面向 Team / Enterprise / Ultra；双向实时会议发言仍是「很快会有」。",
+    "keywords": [
+      "Grok Bot 1.0",
+      "Team Bots",
+      "Slack",
+      "Microsoft Teams",
+      "会议"
+    ],
+    "url": "https://x.com/bot/status/2120582957782200586",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-12-02",
+    "date": "2026-11-12",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 可与 Gopuff 端到端订购杂货、零食和日用品。Gopuff 称已直接内置，用其库存与配送网络，最快约 15 分钟送达，现已上线；未写可用地区。",
+    "keywords": [
+      "Grok Bot",
+      "Gopuff",
+      "配送"
+    ],
+    "url": "https://x.com/bot/status/2120580467682656670",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-12-03",
+    "date": "2026-11-12",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "ChatGPT Finances 登陆桌面应用。可查看消费、理解投资，并做自定义财务工具；需更新桌面应用。面向美国的 Free、Go、Plus 和 Pro 用户。该功能此前已在网页和移动端提供。",
+    "keywords": [
+      "ChatGPT Finances",
+      "桌面应用"
+    ],
+    "url": "https://x.com/ChatGPT/status/2120604108893896965",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-12-04",
+    "date": "2026-11-12",
+    "person": "OpenAI",
+    "handle": "OpenAI",
+    "summary": "OpenAI 转发新研究：思维链（CoT）可监测性随模型变强而变难。预训练越好，模型不靠思维链也能完成更多推理；在 Astra 级模型上，即便强化学习只有长度限制和最终答案评分，思维链可控性也会上升，并可能通过教师生成数据传给下一期模型。",
+    "keywords": [
+      "CoT",
+      "可监测性",
+      "OpenAI Research",
+      "Astra"
+    ],
+    "url": "https://x.com/OpenAI/status/2120589294595367032",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-12-05",
+    "date": "2026-11-11",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 称「好久没有重置了」，续帖写 “Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.” 未写具体时刻。周四即 11月12日。第三方 tracker 记为约 65% 机会、窗口 “by end of Thursday”（按其过期时间对应 11月13日 16:00 CST）。截至本窗结束未见 Done 确认，不视为已重置。",
+    "keywords": [
+      "Codex",
+      "额度重置",
+      "banked reset",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2120410006273380750",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-11-01",
     "date": "2026-11-11",
     "person": "OpenAI",
