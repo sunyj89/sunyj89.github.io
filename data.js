@@ -1,6 +1,97 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-13-01",
+    "date": "2026-11-13",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 宣布 dots 有更新，同时 “the banked reset has been activated and should land in everyones accounts sometime soon”。未写具体时刻。这是对昨日周四 banked reset 预告的兑现。第三方 tracker 已记为 banked、累计 72，但截至本窗结束未见 Done / propagated 确认，不视为已到账完成。",
+    "keywords": [
+      "Codex",
+      "额度重置",
+      "banked reset",
+      "Tibo",
+      "dots"
+    ],
+    "url": "https://x.com/thsottiaux/status/2120999993079451919",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-13-02",
+    "date": "2026-11-13",
+    "person": "Greg Brockman",
+    "handle": "gdb",
+    "summary": "OpenAI 发布两项网络安全产品：Daybreak Defense Factory 用智能体调查安全发现并起草补丁，供工程师审核；Daybreak Red Team 对 Web 应用做 AI 渗透测试，验证漏洞并检查补丁是否有效。活动页提供申请入口，未见宣布对所有用户开放。",
+    "keywords": [
+      "Daybreak",
+      "Defense Factory",
+      "Red Team",
+      "网络安全",
+      "Codex"
+    ],
+    "url": "https://x.com/gdb/status/2121004237413142656",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-13-03",
+    "date": "2026-11-13",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "dots 更新为回复更快、少套话、执行更跟得上，并开始服从线程里的自定义指令，例如应如何表现、哪些动作需先征得同意。官方举例包括 “always talk in lowercase.”",
+    "keywords": [
+      "ChatGPT",
+      "dots",
+      "自定义指令"
+    ],
+    "url": "https://x.com/ChatGPT/status/2120970988796170275",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-13-04",
+    "date": "2026-11-13",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 在 Mac 上可连接信息、邮件、备忘录、提醒事项、日历、定位和通讯录。官方配图为逐项授权的 Connect Apps 页面，例如读写短信、搜索并起草邮件、读写备忘录等。",
+    "keywords": [
+      "Grok Bot",
+      "Mac",
+      "Messages",
+      "Mail",
+      "系统应用"
+    ],
+    "url": "https://x.com/bot/status/2120946968403095906",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-13-05",
+    "date": "2026-11-13",
+    "person": "Cursor",
+    "handle": "cursor_ai",
+    "summary": "Gemini 4 Hydrogen 已可在 Cursor 中使用。默认 effort 下 CursorBench 为 54.3%，高于 Gemini 3.8 Flash 的 39.6%。配图对比显示 Gemini 4 Carbon 仍处于更高分段。",
+    "keywords": [
+      "Cursor",
+      "Gemini 4 Hydrogen",
+      "CursorBench"
+    ],
+    "url": "https://x.com/cursor_ai/status/2120944639633211619",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-13-06",
+    "date": "2026-11-13",
+    "person": "mattyp",
+    "handle": "mattyp",
+    "summary": "mattyp 介绍如何用 Mac mini 或树莓派在本地跑 MCP 服务器，再经 Tailscale 让 Grok Bot 在任何地方调用，例如暴露媒体库、自建编码工作流或触发本地 LLM。这是对 11月11日已宣布的 Tailscale 功能的用法说明，不是新上线。",
+    "keywords": [
+      "Grok Bot",
+      "Tailscale",
+      "MCP",
+      "本地服务器"
+    ],
+    "url": "https://x.com/mattyp/status/2120953404310913453",
+    "track": "cursor"
+  },
+  {
     "id": "2026-11-12-01",
     "date": "2026-11-12",
     "person": "Grok Bot",
