@@ -1,6 +1,94 @@
 // 盯着 Tibo 博客条目，新的在前；track: openai | cursor
 window.BLOG_POSTS = [
   {
+    "id": "2026-11-14-01",
+    "date": "2026-11-14",
+    "person": "ChatGPT",
+    "handle": "ChatGPT",
+    "summary": "OpenAI 推出 ChatGPT Wallet。用户添加一次卡片后，每次购买需经 Face ID 或指纹等安全验证；支付网络下发代币，代理和商家都拿不到真实卡号，符合条件的争议仍可保留原卡奖励与保障。与美国运通、Mastercard、Visa 合作。起步先在 dots 向年满 18 岁、持有合格美国发卡行卡片的美国 ChatGPT Pro 用户推送。",
+    "keywords": [
+      "ChatGPT Wallet",
+      "dots",
+      "代理支付",
+      "美国运通",
+      "Mastercard",
+      "Visa"
+    ],
+    "url": "https://x.com/ChatGPT/status/2121283151729496235",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-14-02",
+    "date": "2026-11-14",
+    "person": "Grok Bot",
+    "handle": "bot",
+    "summary": "Grok Bot 官方发视频称现在可以加入会议，用户可向它提问、分配工作，或让它跟进团队决议。这是对 11月12日 1.0 已宣布之会议能力的跟进演示。@mntruell 引用称这是 early beta，「很快会更好」。",
+    "keywords": [
+      "Grok Bot",
+      "会议",
+      "early beta"
+    ],
+    "url": "https://x.com/bot/status/2121320089920430181",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-14-03",
+    "date": "2026-11-14",
+    "person": "Sam Sokolin",
+    "handle": "SamSokolin",
+    "summary": "Sam Sokolin（bio：building @bot @SpaceXSI）宣布已上线若干 Grok Bot harness 优化，套餐用量约多 7%，例行任务最高约多 15%。这不是额度重置。@mattyp 另提到新的 Usage pane，且 Bot 现在可以访问自己的用量数据，用户可让它协助优化流程。",
+    "keywords": [
+      "Grok Bot",
+      "harness",
+      "用量",
+      "Usage pane"
+    ],
+    "url": "https://x.com/SamSokolin/status/2121303079803089179",
+    "track": "cursor"
+  },
+  {
+    "id": "2026-11-14-04",
+    "date": "2026-11-13",
+    "person": "Tibo",
+    "handle": "thsottiaux",
+    "summary": "Tibo 发文征求 Codex 改进意见，并写 “Try not to say model”。帖文本身没有公布新功能，也没有重置或到账说明。昨日宣布的 banked reset 在本窗仍未见 Done 确认。",
+    "keywords": [
+      "Codex",
+      "产品反馈",
+      "Tibo"
+    ],
+    "url": "https://x.com/thsottiaux/status/2121062974161092792",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-14-05",
+    "date": "2026-11-14",
+    "person": "Jason Kwon",
+    "handle": "jasonkwon",
+    "summary": "OpenAI CSO Jason Kwon 转发 @joedaroo（Agent Security @OpenAI）的长文。作者称 Hugging Face 事件后自己几乎辞职，现在看到公司安全文化已根本转向，并写 “OpenAI is now a security company”。这是个人陈述，不是新的产品发布。",
+    "keywords": [
+      "OpenAI",
+      "安全文化",
+      "Hugging Face",
+      "Daybreak"
+    ],
+    "url": "https://x.com/jasonkwon/status/2121382488945951219",
+    "track": "openai"
+  },
+  {
+    "id": "2026-11-14-06",
+    "date": "2026-11-14",
+    "person": "Max Stoiber",
+    "handle": "mxstbr",
+    "summary": "Max Stoiber 放出 DevDay 上关于 ChatGPT 插件的演讲录像，与 @coreyching 一起现场演示常用插件并讲解底层原理。",
+    "keywords": [
+      "ChatGPT 插件",
+      "DevDay"
+    ],
+    "url": "https://x.com/mxstbr/status/2121338589082722801",
+    "track": "openai"
+  },
+  {
     "id": "2026-11-13-01",
     "date": "2026-11-13",
     "person": "Tibo",
